@@ -34,3 +34,17 @@ button.accordion:hover, button.accordion.is-open{
 	overflow: hidden;
 	transition: max-height 0.2s ease-in-out;
 }
+.event-image{
+	flex: 1;
+	background-color: red;
+
+}
+	.event-image img{
+		width: 100%;
+		height: auto;
+		margin: 0px;
+	}
+.event-desc{
+	flex: 4;
+	background-color: green;
+}
