@@ -16,6 +16,7 @@
 		}else{
 			require_once HOME;
 		}
+		echo "hej fra index";
 	?>
 
 </body>
