@@ -1,2 +1,0 @@
-# lions
-Lions nye hjemmeside
