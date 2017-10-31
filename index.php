@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Velkommen til Lions</title>
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 	
@@ -15,9 +16,9 @@
 			require_once PAGE_404;
 		}else{
 			require_once HOME;
-		}
-		echo "hej fra index";
+		}	
 	?>
 
+	<script src="js/js.js"></script>
 </body>
 </html>
