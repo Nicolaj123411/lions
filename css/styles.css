@@ -1,6 +1,6 @@
 *{
 	padding: 0px;
-	margin: 10px;
+	margin: 0px;
 }
 body{
 	background-color: whitesmoke;
@@ -11,6 +11,10 @@ body{
 }
 
 /* ACCORDION */
+.event{
+	width: 80%;
+	margin: auto;
+}
 button.accordion{
 	width: 100%;
 	border: none;
@@ -36,15 +40,39 @@ button.accordion:hover, button.accordion.is-open{
 }
 .event-image{
 	flex: 1;
-	background-color: red;
+	position: relative;
 
 }
 	.event-image img{
 		width: 100%;
 		height: auto;
 		margin: 0px;
+		line-height: auto;
 	}
 .event-desc{
-	flex: 4;
-	background-color: green;
+	flex: 2;
 }
+.img-overlay{
+	display: none;
+	position: absolute;	
+	opacity: 0;
+}
+	.is-open .img-overlay{
+		height: 100%;
+		width: 100%;
+		background-color: red;
+		top: 0;
+		left: 0;
+		opacity: 0.5;
+		display: block;
+	}
+		.img-overlay p{
+			text-align:center;
+		}
+		.img-overlay div{
+			background-color: green;
+			width: 50%;
+			float: left;
+			
+			text-align: center;
+		}
