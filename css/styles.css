@@ -30,6 +30,7 @@ button.accordion{
 	cursor: pointer;
 	transition: background-color 0.2s linear;
 	box-shadow: 1px 2px 5px -1px rgba(0,0,0,0.75);
+	background-color: #FFF;
 }
 
 button.accordion:hover, button.accordion.is-open{
