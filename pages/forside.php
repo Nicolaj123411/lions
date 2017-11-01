@@ -1,41 +1,5 @@
 <div id="wrapper">
 <section id="main_content">
-
-	<!-- MENU START -->
-	<div class="menu">
-			<div class="dropdown">
-			  <button class="dropbtn">Dropdown</button>
-			  <div class="dropdown-content">
-			    <a href="index.php">Link 1</a>
-			    <a href="?page=events">?page=events</a>
-			    <a href="#">Link 3</a>
-			  </div>
-			</div>
-		</div>
-
-				<div class="menu">
-			<div class="dropdown">
-			  <button class="dropbtn">Dropdown</button>
-			  <div class="dropdown-content">
-			    <a href="#">Link 1</a>
-			    <a href="#">Link 2</a>
-			    <a href="#">Link 3</a>
-			  </div>
-			</div>
-		</div>
-
-				<div class="menu">
-			<div class="dropdown">
-			  <button class="dropbtn">Dropdown</button>
-			  <div class="dropdown-content">
-			    <a href="#">Link 1</a>
-			    <a href="#">Link 2</a>
-			    <a href="#">Link 3</a>
-			  </div>
-			</div>
-		</div>
-
-		<!-- MENU END --> 
 	<section class="flex" id="news_card">
 		<article>
 			<img src="http://via.placeholder.com/350x250" alt="">
