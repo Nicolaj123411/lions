@@ -1,6 +1,5 @@
 *{
 	padding: 0px;
-<<<<<<< HEAD
 	margin: 0px;
 	font-family: helvetica;
 }
@@ -26,23 +25,23 @@ button.accordion{
 	border: none;
 	outline: none;
 	text-align: left;
-	padding: 15px 20px;
+	padding: 30px;
 	font-size: 18px;
 	cursor: pointer;
 	transition: background-color 0.2s linear;
+	box-shadow: 1px 2px 5px -1px rgba(0,0,0,0.75);
 }
 
 button.accordion:hover, button.accordion.is-open{
-	background-color: #ddd;
+	background-color: #f1f1f1;
 }
 
 .accordion-content{
 	padding: 0 20px;
-	border-left: 1px solid blue;
-	border-right: 1px solid blue;
 	max-height: 0px;
 	overflow: hidden;
 	transition: max-height 0.2s ease-in-out;
+	margin-bottom: 50px;
 }
 .event-image{
 	flex: 1;
@@ -62,10 +61,17 @@ button.accordion:hover, button.accordion.is-open{
 		color: #00338d;
 	}
 	.event-desc h1{
-
+		font-size: 25px;
+		margin-bottom: 25px;
 	}
 	.event-desc h3{
-		
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	.event-desc p{
+		font-size: 12pt;
+		font-weight: lighter;
+		padding-right: 40px;
 	}
 .img-overlay{
 	display: none;
@@ -73,8 +79,8 @@ button.accordion:hover, button.accordion.is-open{
 	opacity: 0;
 }
 	.is-open .img-overlay{
-		height: 100%;
 		width: 100%;
+		margin-top: 50px;
 		background-color: #00338d;
 		top: 0;
 		left: 0;
@@ -91,14 +97,26 @@ button.accordion:hover, button.accordion.is-open{
 			text-align: center;
 		}
 
+.info_icon{
+	margin-top: 20px;
+}
+	.info_icon i{
+		margin:10px;
+		list-style-type: none;
+		text-decoration: none;
+	}
+		.info_icon i ,.fa-wheelchair, .fa-coffee, .fa-eur, .fa-blind{
+			color: #EBB700;
+			font-size: 32pt;
+		}
+
 	/* GIT KODE TEST */ 
 
 	
 /* Mathias - 3 bokse forside */
 #main_content{
-	background-color:red;
+	background-color: #FFF;
 	max-width: 1000px;
-	height: 800px;
 	margin:auto;
 }
 
