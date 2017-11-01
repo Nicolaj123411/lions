@@ -1,10 +1,15 @@
 *{
 	padding: 0px;
+<<<<<<< HEAD
 	margin: 0px;
 	font-family: helvetica;
 }
 body{
 	background-color: whitesmoke;
+}
+#wrapper{
+	max-width: 1280px;
+	margin:auto; 
 }
 .flex{
 	display: flex;
@@ -15,6 +20,7 @@ body{
 	width: 80%;
 	margin: auto;
 }
+
 button.accordion{
 	width: 100%;
 	border: none;
@@ -84,3 +90,39 @@ button.accordion:hover, button.accordion.is-open{
 			float: left;
 			text-align: center;
 		}
+
+	/* GIT KODE TEST */ 
+
+	
+/* Mathias - 3 bokse forside */
+#main_content{
+	background-color:red;
+	max-width: 1000px;
+	height: 800px;
+	margin:auto;
+}
+
+#news_card{
+	background-color: grey;
+}
+	#news_card article{
+		margin: 10px;
+		flex:1;
+	}
+	#news_card article img {
+		width: 100%;
+		height: auto;
+	}
+
+	#news_card_headline{
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+	#news_card_bottomlink{
+		color: #03217A;
+		font-weight: bold;
+	}
+	
+
+	
+
