@@ -15,3 +15,6 @@ for (var i = 0; i < accordions.length; i++) {
 		}
 	}
 }
+
+// DONATION COUNTER
+

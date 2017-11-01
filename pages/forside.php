@@ -24,3 +24,58 @@
 	</section>
 </section>
 </div>
+<div id="wrapper">
+<section id="main_content">
+	<section class="flex" id="donations">
+		<article>
+			<img src="http://via.placeholder.com/350x250" alt="">
+			<p id="Value_medlemmer" >100</p>
+			<p id="donation_text">MEDLEMMER</p>
+			
+		</article>
+
+		<article>
+			<img src="http://via.placeholder.com/350x250" alt="">
+			<p id="value_DONERET">35245</p>
+			<p id="donation_text">DONERET I ÅR</p>
+			
+		</article>
+
+		<article>
+			<img src="http://via.placeholder.com/350x250" alt="">
+			<p id="value_lande">234</p>
+			<p id="donation_text">LANDE</p>
+			
+		</article>
+
+		<article>
+			<img src="http://via.placeholder.com/350x250" alt="">
+			<p id="value_klubber">234098</p>
+			<p id="donation_text">LOKALKLUBBER</p>
+			
+		</article>
+	</section>
+</section>
+</div>
+
+<script>
+function animateValue(id, start, end, duration) {
+    var range = end - start;
+    var current = start;
+    var increment = end > start? 50 : +100;
+    var stepTime = Math.abs(Math.floor(duration / range));
+    var obj = document.getElementById(id);
+    var timer = setInterval(function() {
+        current += increment;
+        obj.innerHTML = current;
+        if (current == end) {
+            clearInterval(timer);
+        }
+    }, stepTime);
+}
+animateValue("Value_medlemmer", 0, 3000, 1);
+animateValue("value_DONERET", 0, 5000, 1);
+animateValue("value_lande", 0, 6000, 1);
+animateValue("value_klubber", 0, 7000, 1);
+
+</script>
