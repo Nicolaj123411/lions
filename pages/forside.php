@@ -59,10 +59,10 @@
 </div>
 
 <script>
-		function animateValue(id, start, end, duration) {
+function animateValue(id, start, end, duration) {
     var range = end - start;
     var current = start;
-    var increment = end > start? 1 : +1;
+    var increment = end > start? 50 : +100;
     var stepTime = Math.abs(Math.floor(duration / range));
     var obj = document.getElementById(id);
     var timer = setInterval(function() {
@@ -73,61 +73,9 @@
         }
     }, stepTime);
 }
-
-animateValue("Value_medlemmer", 0, 1400000, 20);
-
-
-	function animateValue(id, start, end, duration) {
-    var range = end - start;
-    var current = start;
-    var increment = end > start? 1 : +1;
-    var stepTime = Math.abs(Math.floor(duration / range));
-    var obj = document.getElementById(id);
-    var timer = setInterval(function() {
-        current += increment;
-        obj.innerHTML = current;
-        if (current == end) {
-            clearInterval(timer);
-        }
-    }, stepTime);
-}
-
-animateValue("value_DONERET", 0, 10000, 2000);
-
-	function animateValue(id, start, end, duration) {
-    var range = end - start;
-    var current = start;
-    var increment = end > start? 1 : +1;
-    var stepTime = Math.abs(Math.floor(duration / range));
-    var obj = document.getElementById(id);
-    var timer = setInterval(function() {
-        current += increment;
-        obj.innerHTML = current;
-        if (current == end) {
-            clearInterval(timer);
-        }
-    }, stepTime);
-}
-
-animateValue("value_lande", 0, 190, 2000);
-
-	function animateValue(id, start, end, duration) {
-    var range = end - start;
-    var current = start;
-    var increment = end > start? 1 : +1;
-    var stepTime = Math.abs(Math.floor(duration / range));
-    var obj = document.getElementById(id);
-    var timer = setInterval(function() {
-        current += increment;
-        obj.innerHTML = current;
-        if (current == end) {
-            clearInterval(timer);
-        }
-    }, stepTime);
-}
-
-animateValue("value_klubber", 0, 300, 2000);
-
-
+animateValue("Value_medlemmer", 0, 3000, 1);
+animateValue("value_DONERET", 0, 5000, 1);
+animateValue("value_lande", 0, 6000, 1);
+animateValue("value_klubber", 0, 7000, 1);
 
 </script>
