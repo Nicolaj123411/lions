@@ -59,27 +59,44 @@
 </div>
 
 <script>
-function animateValue(id, start, end, duration) {
-    var range = end - start;
-    var current = start;
-    var increment = end > start? 1 : +1;
-    var stepTime = Math.abs(Math.floor(duration / range));
-    var obj = document.getElementById(id);
-    var timer = setInterval(function() {
-        current += increment;
-        obj.innerHTML = current;
-        if (current == end) {
-            clearInterval(timer);
-        }
-    }, stepTime);
-}
-animateValue("Value_medlemmer", 0, 7000, 150000);
-animateValue("value_DONERET", 0, 30000000, 150000);
-animateValue("value_lande", 0, 190, 150000);
-animateValue("value_klubber", 0, 300, 150000);
-
 /*
 Ret i tallet "150000" - hvis du ønsker at countdown skal gå hurtigere
 */
 
+function animateValue(id, start, end, duration) {
+    // assumes integer values for start and end
+    
+    var obj = document.getElementById(id);
+    var range = end - start;
+    // no timer shorter than 50ms (not really visible any way)
+    var minTimer = 50;
+    // calc step time to show all interediate values
+    var stepTime = Math.abs(Math.floor(duration / range));
+    
+    // never go below minTimer
+    stepTime = Math.max(stepTime, minTimer);
+    
+    // get current time and calculate desired end time
+    var startTime = new Date().getTime();
+    var endTime = startTime + duration;
+    var timer;
+  
+    function run() {
+        var now = new Date().getTime();
+        var remaining = Math.max((endTime - now) / duration, 0);
+        var value = Math.round(end - (remaining * range));
+        obj.innerHTML = value;
+        if (value == end) {
+            clearInterval(timer);
+        }
+    }
+    
+    timer = setInterval(run, stepTime);
+    run();
+}
+
+animateValue("Value_medlemmer", 0, 7000, 10);
+animateValue("value_DONERET", 0, 30, 1000);
+animateValue("value_lande", 0, 190, 4265);
+animateValue("value_klubber", 0, 300, 22342);
 </script>
