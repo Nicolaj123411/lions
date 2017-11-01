@@ -38,6 +38,15 @@ button.accordion{
 	border-right: 1px solid black;
 	border-left: 1px solid black;
 }
+	.event_desc_wrapper p, img{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.event_desc_wrapper h5{
+		color: #00338d;
+		font-size: 15pt;
+		margin-top: 30px;
+	}
 
 button.accordion:hover, button.accordion.is-open{
 	background-color: #f1f1f1;
@@ -103,9 +112,19 @@ button.accordion:hover, button.accordion.is-open{
 			float: left;
 			text-align: center;
 		}
+.tidsplan span{
+	float: left;
+	margin-right: 5px;
+	color: #03217A;
+	font-weight: bold;
+}
 
+	.tidsplan p{
+		font-weight: bold;
+	}
 .info_icon{
 	margin-top: 20px;
+
 }
 	.info_icon i{
 		margin:10px;
