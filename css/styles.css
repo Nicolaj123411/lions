@@ -32,6 +32,12 @@ button.accordion{
 	box-shadow: 1px 2px 5px -1px rgba(0,0,0,0.75);
 	background-color: #FFF;
 }
+.event_desc_wrapper{
+	margin-top: 20px;
+	padding: 20px;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
 
 button.accordion:hover, button.accordion.is-open{
 	background-color: #f1f1f1;
