@@ -159,7 +159,7 @@ button.accordion:hover, button.accordion.is-open{
 		height: auto;
 		width: 100%;
 	}
-	#value{
+	#Value_medlemmer{
 		margin-bottom: 1px;
 		font-weight: bold;
 		text-align: center;
@@ -172,6 +172,39 @@ button.accordion:hover, button.accordion.is-open{
 		font-weight: bold;
 		text-align: center;
 
+	}
+
+	#value_medlemmer{
+		margin-bottom: 1px;
+		font-weight: bold;
+		text-align: center;
+		color:#E5AA1B;
+		font-size: 180%;
+		text-align: center;  
+	}
+	#value_DONERET{
+		margin-bottom: 1px;
+		font-weight: bold;
+		text-align: center;
+		color:#E5AA1B;
+		font-size: 180%;
+		text-align: center;  
+	}
+	#value_lande{
+		margin-bottom: 1px;
+		font-weight: bold;
+		text-align: center;
+		color:#E5AA1B;
+		font-size: 180%;
+		text-align: center;  
+	}
+	#value_klubber{
+		margin-bottom: 1px;
+		font-weight: bold;
+		text-align: center;
+		color:#E5AA1B;
+		font-size: 180%;
+		text-align: center;  
 	}
 	
 
