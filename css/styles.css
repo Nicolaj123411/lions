@@ -1,6 +1,6 @@
 *{
 	padding: 0px;
-	margin: 10px;
+	margin: 0px;
 }
 body{
 	background-color: whitesmoke;
@@ -11,6 +11,10 @@ body{
 }
 
 /* ACCORDION */
+.event{
+	width: 80%;
+	margin: auto;
+}
 button.accordion{
 	width: 100%;
 	border: none;
@@ -20,17 +24,6 @@ button.accordion{
 	font-size: 18px;
 	cursor: pointer;
 	transition: background-color 0.2s linear;
-}
-
-button.accordion::after {
-	content: '\f055';
-	font-family: "fontawesome";
-	font-size: 14px;
-	float: right;
-}
-
-button.accordion.is-open::after {
-	content: "\f056";
 }
 
 button.accordion:hover, button.accordion.is-open{
@@ -45,3 +38,41 @@ button.accordion:hover, button.accordion.is-open{
 	overflow: hidden;
 	transition: max-height 0.2s ease-in-out;
 }
+.event-image{
+	flex: 1;
+	position: relative;
+
+}
+	.event-image img{
+		width: 100%;
+		height: auto;
+		margin: 0px;
+		line-height: auto;
+	}
+.event-desc{
+	flex: 2;
+}
+.img-overlay{
+	display: none;
+	position: absolute;	
+	opacity: 0;
+}
+	.is-open .img-overlay{
+		height: 100%;
+		width: 100%;
+		background-color: red;
+		top: 0;
+		left: 0;
+		opacity: 0.5;
+		display: block;
+	}
+		.img-overlay p{
+			text-align:center;
+		}
+		.img-overlay div{
+			background-color: green;
+			width: 50%;
+			float: left;
+			
+			text-align: center;
+		}
