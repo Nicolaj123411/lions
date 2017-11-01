@@ -62,7 +62,7 @@
 function animateValue(id, start, end, duration) {
     var range = end - start;
     var current = start;
-    var increment = end > start? 50 : +100;
+    var increment = end > start? 1 : +1;
     var stepTime = Math.abs(Math.floor(duration / range));
     var obj = document.getElementById(id);
     var timer = setInterval(function() {
@@ -73,9 +73,13 @@ function animateValue(id, start, end, duration) {
         }
     }, stepTime);
 }
-animateValue("Value_medlemmer", 0, 3000, 1);
-animateValue("value_DONERET", 0, 5000, 1);
-animateValue("value_lande", 0, 6000, 1);
-animateValue("value_klubber", 0, 7000, 1);
+animateValue("Value_medlemmer", 0, 7000, 150000);
+animateValue("value_DONERET", 0, 30000000, 150000);
+animateValue("value_lande", 0, 190, 150000);
+animateValue("value_klubber", 0, 300, 150000);
+
+/*
+Ret i tallet "150000" - hvis du ønsker at countdown skal gå hurtigere
+*/
 
 </script>
