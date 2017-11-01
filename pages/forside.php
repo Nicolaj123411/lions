@@ -36,21 +36,21 @@
 
 		<article>
 			<img src="http://via.placeholder.com/350x250" alt="">
-			<p id="donation_text_counter">TAL HER</p>
+			<p id="value">TAL HER</p>
 			<p id="donation_text">DONERET I ÅR</p>
 			
 		</article>
 
 		<article>
 			<img src="http://via.placeholder.com/350x250" alt="">
-			<p id="donation_text_counter">TAL HER</p>
+			<p id="value">TAL HER</p>
 			<p id="donation_text">LANDE</p>
 			
 		</article>
 
 		<article>
 			<img src="http://via.placeholder.com/350x250" alt="">
-			<p id="donation_text_counter">TAL HER</p>
+			<p id="value">TAL HER</p>
 			<p id="donation_text">LOKALKLUBBER</p>
 			
 		</article>
