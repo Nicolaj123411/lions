@@ -43,11 +43,6 @@
 		<button>luk event</button>
 		</div>
 </div>
-
-
-
-
-
 </div>
 </section>
 </div>
