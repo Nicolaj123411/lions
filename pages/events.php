@@ -2,12 +2,11 @@
 	<button class="accordion">
 		<div class="flex">
 		<div class="event-desc">
-			<h1>OVERSKRIFT</h1>
-			<h3>UNDERSKRFIT</h3>
+			<h1>NÆSTE EVENT</h1>
+			<h3>25/9 Loppemarked</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, odit iure veritatis eaque nulla dignissimos eius ut, tempora dicta facilis.</p>
 		</div>
 		<div class="event-image">
-
 			<img src="http://via.placeholder.com/250x250" alt="Event picture">
 			<div class="img-overlay">
 				<p>Starter om</p>
