@@ -115,12 +115,37 @@ button.accordion:hover, button.accordion.is-open{
 	}
 
 	#news_card_headline{
-		margin-bottom: 10px;
+		margin-bottom: 1px;
 		font-weight: bold;
 	}
 	#news_card_bottomlink{
 		color: #03217A;
 		font-weight: bold;
+	}
+
+#news_card{
+	background-color: grey;
+}
+	#donations article{
+		margin: 10px;
+		flex:1;
+	}
+	#donations article img{
+		height: auto;
+		width: 100%;
+	}
+	#value{
+		margin-bottom: 1px;
+		font-weight: bold;
+		text-align: center;
+		color:#E5AA1B;
+		font-size: 180%;  
+	}
+	#donation_text{
+		margin-bottom: 1px;
+		font-weight: bold;
+		text-align: center;
+
 	}
 	
 

@@ -24,3 +24,36 @@
 	</section>
 </section>
 </div>
+<div id="wrapper">
+<section id="main_content">
+	<section class="flex" id="donations">
+		<article>
+			<img src="http://via.placeholder.com/350x250" alt="">
+			<p id="value" >100</p>
+			<p id="donation_text">MEDLEMMER</p>
+			
+		</article>
+
+		<article>
+			<img src="http://via.placeholder.com/350x250" alt="">
+			<p id="donation_text_counter">TAL HER</p>
+			<p id="donation_text">DONERET I ÅR</p>
+			
+		</article>
+
+		<article>
+			<img src="http://via.placeholder.com/350x250" alt="">
+			<p id="donation_text_counter">TAL HER</p>
+			<p id="donation_text">LANDE</p>
+			
+		</article>
+
+		<article>
+			<img src="http://via.placeholder.com/350x250" alt="">
+			<p id="donation_text_counter">TAL HER</p>
+			<p id="donation_text">LOKALKLUBBER</p>
+			
+		</article>
+	</section>
+</section>
+</div>
