@@ -164,7 +164,8 @@ button.accordion:hover, button.accordion.is-open{
 		font-weight: bold;
 		text-align: center;
 		color:#E5AA1B;
-		font-size: 180%;  
+		font-size: 180%;
+		text-align: center;  
 	}
 	#donation_text{
 		margin-bottom: 1px;
