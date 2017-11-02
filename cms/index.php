@@ -1,3 +1,6 @@
+<?php 
+include('assets/functions.php');
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -28,6 +31,7 @@
 		</main>
 		<nav id="site-nav">
 			<ul>
+				<?php echo listPages(); ?>
 				<li><a href="#">Link to page</a></li>
 				<li><a href="#">Link to page</a></li>
 				<li><a href="#">Link to page</a></li>
