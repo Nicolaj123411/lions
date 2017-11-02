@@ -26,7 +26,6 @@
 				Fopen echo continue brute force /dev/null man pages socket bit semaphore eof chown daemon rm -rf ban. Piggyback salt int python concurrently machine code regex do gurfle access lib hello world crack. Void leapfrog gcc case mutex memory leak exception hash function.
 			</p>
 		</main>
-		
 		<nav id="site-nav">
 			<ul>
 				<li><a href="#">Link to page</a></li>
