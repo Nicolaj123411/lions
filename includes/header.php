@@ -1,16 +1,26 @@
 <header>
-		<div class="wrapper">
-			<div class="logo">LIONS LOGO HER</div>
-			
-			<nav>
-				<a href="#">STØT</a>
-				<a href="#">KONTAKT</a>
+<div class="flex" style="justify-content: space-between;">
+	<div class="logo">
+		<a href="#">
+			<img src="img/LIONS_LOGO_SVG.svg" alt="Lions logo">
+		</a>
+	</div>
+	
+			<nav id="menu_quick_links">
+				<ul>
+					<li><a href="#">STØT</a></li>
+					<li><a href="#">KONTAKT</a></li>
+				</ul>
 			</nav>
-		</div>
-	</header>
+</div>
+
+
+
+
 
 <!-- MENU -->
-<div class="menu">
+<div id="menu_wrapper">
+		<div class="menu">
 			<div class="dropdown">
 			  <button class="dropbtn">Dropdown</button>
 			  <div class="dropdown-content">
@@ -21,7 +31,7 @@
 			</div>
 		</div>
 
-				<div class="menu">
+		<div class="menu">
 			<div class="dropdown">
 			  <button class="dropbtn">Dropdown</button>
 			  <div class="dropdown-content">
@@ -32,7 +42,7 @@
 			</div>
 		</div>
 
-				<div class="menu">
+		<div class="menu">
 			<div class="dropdown">
 			  <button class="dropbtn">Dropdown</button>
 			  <div class="dropdown-content">
@@ -43,6 +53,7 @@
 			</div>
 		</div>
 	</div>
+</div>
 
-
+	</header>
 	<!-- MENU SLUT -->
