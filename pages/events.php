@@ -3,7 +3,7 @@
 		require 'includes/header.php';
 	?>
 	<section id="main_content">
-<div class="event">
+<div class="event"> 
 			<button class="accordion">
 				<div class="flex">
 				<div class="event-desc">
@@ -86,6 +86,8 @@
 				</div>
 				
 			</button>
+
+
 			<div class="accordion-content">
 				<div class="event_desc_wrapper">jeg er afstand
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sit eligendi repellendus et quibusdam ipsa dolorum doloribus, ipsam hic quae tempora, est expedita mollitia nihil a laboriosam, ipsum facilis saepe voluptas illo eaque! Doloremque ipsum, odit, fugit ipsam amet soluta dolor cupiditate sint, veritatis alias facilis quod accusamus in id!</p>
@@ -97,6 +99,8 @@
 				<button>luk event</button>
 				</div>
 		</div>
+
+<!-- ////////////////////////////////////////////////////////////////////// -->
 
 			<button class="accordion">
 				<div class="flex">
@@ -139,6 +143,10 @@
 				<button>luk event</button>
 				</div>
 		</div>
+
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////////-->
+
 
 			<button class="accordion">
 				<div class="flex">
