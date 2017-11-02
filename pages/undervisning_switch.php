@@ -15,6 +15,8 @@ swithc($weekday)
 	case 'sunday':
 		echo "It is weekend";
 		break;
+	default:
+		echo "Just another day";
 }
 
  ?>
