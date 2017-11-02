@@ -34,6 +34,7 @@
 					</div>
 				</div>
 				
+				
 			</button>
 			<div class="accordion-content">
 				<div class="event_desc_wrapper">

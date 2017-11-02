@@ -243,7 +243,11 @@ button.accordion:hover, button.accordion.is-open{
 .dropdown {
     position: relative;
     display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+
 }
+
 
 .dropdown-content {
     display: none;
@@ -273,22 +277,20 @@ button.accordion:hover, button.accordion.is-open{
     background-color: #032119;
 }
 
-.menu{
-	float: left;
-}
+
 
 /* MENU SLUT */
 
 header {
 	width:100%; 
-	overflow:hidden; 
-	background:#deeppink;
-	margin-bottom:20px;
+
+	
+	margin-bottom:90px;
 
 }
  
 header .logo {
-	width: 150px;
+	width: 100px;
 	float: left;
 }
  
@@ -301,6 +303,13 @@ header nav {
  	text-decoration: none;
  	margin-left: 50px;
 }
+
+#menu_wrapper
+	{
+		background-color: red;
+		justify-content: center;
+
+	}
 
 
 

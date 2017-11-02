@@ -16,13 +16,11 @@
 
 
 
-
-
 <!-- MENU -->
-<div id="menu_wrapper">
+<div id="menu_wrapper" class="flex">
 		<div class="menu">
 			<div class="dropdown">
-			  <button class="dropbtn">Dropdown</button>
+			  <button class="dropbtn">NYHEDER</button>
 			  <div class="dropdown-content">
 			    <a href="#">Link 1</a>
 			    <a href="#">Link 2</a>
@@ -33,7 +31,7 @@
 
 		<div class="menu">
 			<div class="dropdown">
-			  <button class="dropbtn">Dropdown</button>
+			  <button class="dropbtn">BLIV FRIVILLIG</button>
 			  <div class="dropdown-content">
 			    <a href="#">Link 1</a>
 			    <a href="#">Link 2</a>
@@ -44,7 +42,7 @@
 
 		<div class="menu">
 			<div class="dropdown">
-			  <button class="dropbtn">Dropdown</button>
+			  <button class="dropbtn">FOR UNGE</button>
 			  <div class="dropdown-content">
 			    <a href="#">Link 1</a>
 			    <a href="#">Link 2</a>
@@ -52,8 +50,42 @@
 			  </div>
 			</div>
 		</div>
-	</div>
-</div>
 
-	</header>
+		<div class="menu">
+			<div class="dropdown">
+			  <button class="dropbtn">EVENTS</button>
+			  <div class="dropdown-content">
+			    <a href="#">Link 1</a>
+			    <a href="#">Link 2</a>
+			    <a href="#">Link 3</a>
+			  </div>
+			</div>
+		</div>
+
+		<div class="menu">
+			<div class="dropdown">
+			  <button class="dropbtn">PROJEKTER</button>
+			  <div class="dropdown-content">
+			    <a href="#">Link 1</a>
+			    <a href="#">Link 2</a>
+			    <a href="#">Link 3</a>
+			  </div>
+			</div>
+		</div>
+
+		<div class="menu">
+			<div class="dropdown">
+			  <button class="dropbtn">OM LIONS</button>
+			  <div class="dropdown-content">
+			    <a href="#">Link 1</a>
+			    <a href="#">Link 2</a>
+			    <a href="#">Link 3</a>
+			  </div>
+			</div>
+		</div>
+
+		
+	
 	<!-- MENU SLUT -->
+</div>
+</header>
