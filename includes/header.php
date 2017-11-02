@@ -1,3 +1,14 @@
+<header>
+		<div class="wrapper">
+			<div class="logo">LIONS LOGO HER</div>
+			
+			<nav>
+				<a href="#">STØT</a>
+				<a href="#">KONTAKT</a>
+			</nav>
+		</div>
+	</header>
+
 <!-- MENU -->
 <div class="menu">
 			<div class="dropdown">

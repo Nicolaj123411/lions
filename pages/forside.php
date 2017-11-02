@@ -1,3 +1,7 @@
+<?php 
+include 'includes/header.php';
+ ?>
+
 <div id="wrapper">
 <section id="main_content">
 	<section class="flex" id="news_card">

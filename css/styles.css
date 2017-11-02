@@ -279,4 +279,30 @@ button.accordion:hover, button.accordion.is-open{
 
 /* MENU SLUT */
 
+header {
+	width:100%; 
+	overflow:hidden; 
+	background:#deeppink;
+	margin-bottom:20px;
+}
+ 
+.wrapper {
+	width:90%; 
+	max-width:1000px; 
+	margin:auto; 
+	overflow:hidden; 
+ }
+header.logo {
+	color:#white;
+	font-size:50px;
+	line-height:200px;
+	float:left;
+}
+ 
+header nav {
+	float:right;
+	line-height:200px;
+}
+
+
 
