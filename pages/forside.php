@@ -22,36 +22,34 @@
 			<p id="news_card_bottomlink">LÆS MERE</p>
 		</article>
 	</section>
-</section>
-</div>
-<div id="wrapper">
-<section id="main_content">
+
+
 	<section class="flex" id="donations">
 		<article>
 			<img src="http://via.placeholder.com/350x250" alt="">
-			<p id="Value_medlemmer" >100</p>
-			<p id="donation_text">MEDLEMMER</p>
+			<p id="Value_medlemmer" ></p>
+			<p id="donation_text">MEDLEMMER I DANMARK</p>
 			
 		</article>
 
 		<article>
 			<img src="http://via.placeholder.com/350x250" alt="">
-			<p id="value_DONERET">35245</p>
-			<p id="donation_text">DONERET I ÅR</p>
+			<p id="value_DONERET"></p>
+			<p id="donation_text">DONERET MILIONER I ÅR</p>
 			
 		</article>
 
 		<article>
 			<img src="http://via.placeholder.com/350x250" alt="">
-			<p id="value_lande">234</p>
-			<p id="donation_text">LANDE</p>
+			<p id="value_lande">190</p>
+			<p id="donation_text">LANDE MED LIONS</p>
 			
 		</article>
 
 		<article>
 			<img src="http://via.placeholder.com/350x250" alt="">
-			<p id="value_klubber">234098</p>
-			<p id="donation_text">LOKALKLUBBER</p>
+			<p id="value_klubber">300</p>
+			<p id="donation_text">LOKALE KLUBBER I DANMARK</p>
 			
 		</article>
 	</section>
@@ -59,21 +57,19 @@
 </div>
 
 <script>
-/*
-Ret i tallet "150000" - hvis du ønsker at countdown skal gå hurtigere
-*/
+
 
 function animateValue(id, start, end, duration) {
-    // assumes integer values for start and end
+    // Der forventes interger (tal) i value - da der bliver brugt "math" funktioner
     
     var obj = document.getElementById(id);
     var range = end - start;
-    // no timer shorter than 50ms (not really visible any way)
+    // minTimer skal være 50 - da ændringer ikke er brugbare for det menneskelige øje
     var minTimer = 50;
-    // calc step time to show all interediate values
+    // Den beregner intervallet imellem tid og "afstand" i mellem start og end
     var stepTime = Math.abs(Math.floor(duration / range));
     
-    // never go below minTimer
+   // resultater fra oven over sættes sammen her
     stepTime = Math.max(stepTime, minTimer);
     
     // get current time and calculate desired end time
@@ -95,8 +91,8 @@ function animateValue(id, start, end, duration) {
     run();
 }
 
-animateValue("Value_medlemmer", 0, 7000, 10);
-animateValue("value_DONERET", 0, 30, 1000);
-animateValue("value_lande", 0, 190, 4265);
-animateValue("value_klubber", 0, 300, 22342);
+animateValue("Value_medlemmer", 0, 7000, 2000);
+animateValue("value_DONERET", 0, 30, 2000);
+animateValue("value_lande", 0, 190, 2000);
+animateValue("value_klubber", 0, 300, 2000);
 </script>
