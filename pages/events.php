@@ -1,7 +1,9 @@
 <div id="wrapper">
+	<?php
+		require 'includes/header.php';
+	?>
 	<section id="main_content">
 <div class="event">
-
 			<button class="accordion">
 				<div class="flex">
 				<div class="event-desc">
@@ -39,7 +41,7 @@
 					<img style="float: right;" src="http://via.placeholder.com/200x200" alt="event description image">
 					<h5>lille overskrift</h5>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sit eligendi repellendus et quibusdam ipsa dolorum doloribus, ipsam hic quae tempora, est expedita mollitia nihil a laboriosam, ipsum facilis saepe voluptas illo eaque! Doloremque ipsum, odit, fugit ipsam amet soluta dolor cupiditate sint, veritatis alias facilis quod accusamus in id!</p>
-				<h5>lille overskrift</h5>
+				<h5>lille overskrift</h5> 
 				
 			
 				<p>Lorem ipsum dolor sit amet,s consectetur adipisicing elit. Totam sit eligendi repellendus et quibusdam ipsa dolorum doloribus, ipsam hic quae tempora, est expedita mollitia nihil a laboriosam, ipsum facilis saepe voluptas illo eaque! Doloremque ipsum, odit, fugit ipsam amet soluta dolor cupiditate sint, veritatis alias facilis quod accusamus in id!</p>
