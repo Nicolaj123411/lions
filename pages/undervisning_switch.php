@@ -2,8 +2,7 @@
 
 $weekday = 'monday';
 
-swithc($weekday)
-{
+swithc($weekday){
 	case'monday':
 		echo "I dont like mondays";
 		break;
