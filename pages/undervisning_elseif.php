@@ -11,6 +11,4 @@ if($time < 5){
 }else{
 	echo "Whatever";
  }
- 
-
  ?>
