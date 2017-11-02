@@ -1,7 +1,9 @@
 <div id="wrapper">
+	<?php
+		require 'includes/header.php';
+	?>
 	<section id="main_content">
 <div class="event">
-
 			<button class="accordion">
 				<div class="flex">
 				<div class="event-desc">
