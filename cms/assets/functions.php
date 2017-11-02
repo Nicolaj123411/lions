@@ -2,7 +2,14 @@
 
 function listPages (){
 
+	$pages = getData();
 
+	$output = '';
+
+	foreach ($pages as $page) {
+		$output .= '<li><a href=>' . $page['title'] . '</a></li>';
+	}
+	return $output;
 }
 
 function singlePage(){
@@ -18,8 +25,8 @@ function savePage(){
 
 function getData(){
 
-	$json = file_get_contents('data.json', true);
-	$data = json_decode($json);
+	$json = file_get_contents('data.json');
+	$data = json_decode($json, true);
 	return $data;
 }
 
