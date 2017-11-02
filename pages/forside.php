@@ -7,7 +7,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas eos quo repudiandae repellat exercitationem quam, aspernatur obcaecati nulla suscipit quod.</p>
 			<p id="news_card_bottomlink">LÆS MERE</p>
 		</article>
-
+ 
 		<article>
 			<img src="http://via.placeholder.com/350x250" alt="">
 			<p id="news_card_headline">Overskrift 2</p>
