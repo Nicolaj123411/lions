@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>My Simple CMS</title>
-	<link rel="stylesheet" href="/cms/assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
