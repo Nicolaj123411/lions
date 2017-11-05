@@ -24,7 +24,7 @@
 	color:#e74c3c;
 }
 .wrapper{
-	width: 1280px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -76,6 +76,8 @@
 	}
 #main-area{
 	width: 100%;
+}
+#admin-body{
 	background-color: #f7fdff;
 }
 
