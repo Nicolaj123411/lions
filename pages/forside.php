@@ -55,6 +55,10 @@
 			
 		</article>
 	</section>
+
+	<?php 
+		include 'includes/kalender.php';
+	?>
 </section>
 </div>
 
