@@ -114,6 +114,17 @@
 	    padding: 10px;
 	    font-size: 20px;
 	}
+	.table-header a{
+		color: #FFF;
+		padding-left: 30px;
+		padding-right: 30px;
+		background-color: #27ae60;
+		font-size: 20px;
+		text-decoration: none;
+		font-weight: bold;
+		height: 80px;
+		line-height: 80px;
+	}
 	#table .table-header h1, p{
 		margin-left: 20px;
 		color: #FFF;

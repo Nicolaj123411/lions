@@ -1,3 +1,4 @@
+
 <?php
 	require 'config.php';
 ?>	
@@ -25,8 +26,7 @@
 		<section id="main-area">
 			<div id="table">
 				<div class="flex table-header">
-					<a href="new-event.php">Opret event</a>
-					<h1>Rediger events</h1><p>Oversigt over events</p>
+					<h1>Opret nyt event</h1><p>Udfyld felterne nedenfor</p>
 				</div>
 
 				<div class="table-row">
@@ -54,6 +54,7 @@
 						<li>
 							<a class="orange-bg" href="event-detail.php">REDIGER</a>
 							<a class="red-bg" href="#">SLET</a>
+							<a class="green-bg" href="#">OPDATER</a>
 						</li>
 					</ul>	
 				</div>
@@ -67,11 +68,12 @@
 						<li>
 							<a class="orange-bg" href="#">REDIGER</a>
 							<a class="red-bg" href="#">SLET</a>
+							<a class="green-bg" href="#">OPDATER</a>
 						</li>
 					</ul>	
 				</div>
 
-				<div class="table-row">
+								<div class="table-row">
 					<ul class="flex">
 						<li><?php echo date("d/m/Y"); ?></li>
 						<li>Overskrift på hvad end det nu er</li>
@@ -80,6 +82,7 @@
 						<li>
 							<a class="orange-bg" href="#">REDIGER</a>
 							<a class="red-bg" href="#">SLET</a>
+							<a class="green-bg" href="#">OPDATER</a>
 						</li>
 					</ul>	
 				</div>

@@ -1,4 +1,5 @@
 <?php
+// nl2br()
 	require 'config.php';
 ?>	
 <!DOCTYPE html>

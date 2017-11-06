@@ -74,7 +74,7 @@
 				</form>
 				</div>
 
-								<div class="table-row">
+				<div class="table-row">
 					<form id="event_tid" class="row-edit" action="edit-event-detail.php" method="get">
 					<ul class="flex">
 						<li></li>
@@ -91,7 +91,7 @@
 				</form>
 				</div>
 
-								<div class="table-row">
+				<div class="table-row">
 					<form id="event_tid" class="row-edit" action="edit-event-detail.php" method="get">
 					<ul class="flex">
 						<li></li>
@@ -110,6 +110,7 @@
 			</div>	
 			<div id="table">
 				<div class="flex table-header">
+					<a href="new-event.php">Tilføj tid</a>
 					<h1>Event tider</h1>
 				</div>
 
