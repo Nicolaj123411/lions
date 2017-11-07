@@ -1,4 +1,3 @@
-
 <?php
 	require 'config.php';
 ?>	
@@ -18,15 +17,27 @@
 			<h1>Mit overblik</h1>
 			<ul>
 				<li><a href="index.php">Forside</a></li>
-				<li class="menu-active"><a href="#">Events</a></li>
+				<li class="menu-active"><a href="#">Events <span style="font-weight: 100; font-size: 12px;">- Ny event</span></a></li>
 				<li><a href="#">Nyheder</a></li>
 			</ul>
 		</nav>
 
 		<section id="main-area">
+			<?php
+				if(isset($_GET['success'])){
+					if ($_GET['success'] == "true"){
+						echo "<div class='success-message'><h1>Ændrigen er fortaget!</h1><a href='../index.php?page=events'>Tryk her for at se ændringen!</a></div>";
+					}elseif ($_GET['success'] == "false"){
+						echo "<h1>Ændringen mislykkedes</h1>";
+					}
+				}
+			?>
 			<div id="table">
 				<div class="flex table-header">
-					<h1>Opret nyt event</h1><p>Udfyld felterne nedenfor</p>
+					<h1>Event navn:</h1>
+					<form id="new-event" action="edit-event-detail.php" method="get">
+						<input type="text" value="TITEL">
+					</form>
 				</div>
 
 				<div class="table-row">
@@ -37,56 +48,26 @@
 							<h1>Beskrivelse</h1>
 						</li>
 						<li>
-							<h1>Billede</h1>
-						</li>
-						<li>
-							<h1>Muligheder</h1>
+							<h1>Action</h1>
 						</li>
 					</ul>	
 				</div>
 
 				<div class="table-row">
+					<form id="event_tid" class="row-edit" action="edit-event-detail.php" method="get">
 					<ul class="flex">
-						<li style="flex: 1;"><?php echo date("d/m/Y"); ?></li>
-						<li>Overskrift på hvad end det nu er</li>
-						<li style="flex: 4;">Tekst til tingen Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sapiente cum, at officia pariatur ipsam aperiam unde qui libero voluptatibus!</li>
-						<li><img src="http://via.placeholder.com/100x100" alt=""></li>
+						<li><input type="date"></li>
+						<li><input type="text" placeholder="Overskrift på Event"></li>
+						<li style="flex: 4;"><textarea name="desc" form="event_tid" placeholder="Tilføj en beskrivelse til eventet. Denne beskrivelse vil blive vist som det første."></textarea></li>
 						<li>
-							<a class="orange-bg" href="event-detail.php">REDIGER</a>
-							<a class="red-bg" href="#">SLET</a>
-							<a class="green-bg" href="#">OPDATER</a>
+							<a class="green-bg" href="#">Opret event</a>
 						</li>
 					</ul>	
+				</form>
 				</div>
 
-				<div class="table-row">
-					<ul class="flex">
-						<li><?php echo date("d/m/Y"); ?></li>
-						<li>Overskrift på hvad end det nu er</li>
-						<li style="flex: 4;">Tekst til tingen Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sapiente cum, at officia pariatur ipsam aperiam unde qui libero voluptatibus!</li>
-						<li><img src="https://images.unsplash.com/photo-1464500422302-6188776dcbf3?auto=format&fit=crop&w=2621&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="" height="100" width="100"></li>
-						<li>
-							<a class="orange-bg" href="#">REDIGER</a>
-							<a class="red-bg" href="#">SLET</a>
-							<a class="green-bg" href="#">OPDATER</a>
-						</li>
-					</ul>	
-				</div>
+			</div>	
 
-								<div class="table-row">
-					<ul class="flex">
-						<li><?php echo date("d/m/Y"); ?></li>
-						<li>Overskrift på hvad end det nu er</li>
-						<li style="flex: 4;">Tekst til tingen Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sapiente cum, at officia pariatur ipsam aperiam unde qui libero voluptatibus!</li>
-						<li><img src="https://images.unsplash.com/photo-1489251242924-a7289d345073?auto=format&fit=crop&w=2555&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="" height="100" width="100""></li>
-						<li>
-							<a class="orange-bg" href="#">REDIGER</a>
-							<a class="red-bg" href="#">SLET</a>
-							<a class="green-bg" href="#">OPDATER</a>
-						</li>
-					</ul>	
-				</div>
-			</div>
 		</section>
 	</section>
 
