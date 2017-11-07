@@ -283,10 +283,7 @@ button.accordion:hover, button.accordion.is-open{
 
 header {
 	width:100%; 
-
-	
-	margin-bottom:90px;
-
+	margin-bottom:0px;
 }
  
 header .logo {
