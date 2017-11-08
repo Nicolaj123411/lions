@@ -143,21 +143,27 @@ button.accordion:hover, button.accordion.is-open{
 #main_content{
 	background-color: #FFF;
 	max-width: 1000px;
-	margin:auto;
+	margin: auto;
 }
 
 #news_card{
-	background-color: #F1F1F1;
+	background-color: #fff;
 	position: relative;
 	top: -100px;
+	padding: 25px;
 }
 	#news_card article{
-		margin: 10px;
 		flex:1;
+		background-color: #F1F1F1;
+		box-shadow: 1px 2px 5px -1px rgba(0,0,0,0.75);
+		margin: 5px;
 	}
+
 	#news_card article img {
 		width: 100%;
 		height: auto;
+		margin: 0px;
+		margin-bottom: 15px;
 	}
 
 	#news_card_headline{
@@ -168,6 +174,15 @@ button.accordion:hover, button.accordion.is-open{
 		color: #03217A;
 		font-weight: bold;
 	}
+
+
+	#news_card article p {
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-bottom: 10px;
+	}
+
+
 
 
 	#donations article{
@@ -227,6 +242,14 @@ button.accordion:hover, button.accordion.is-open{
 		text-align: center;  
 	}
 
+	.stat_icon {
+		text-align: center;
+		color: #273582;
+		font-size: 500%;
+	}
+
+
+
 
 	/* MENU */
 
@@ -274,7 +297,7 @@ button.accordion:hover, button.accordion.is-open{
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #032119;
+    background-color: #273582;
 }
 
 
@@ -349,6 +372,7 @@ header nav {
 	background-color: white;
 	flex: 4;
 	margin-left: 25px;
+	box-shadow: 1px 2px 5px -1px rgba(0,0,0,0.75);
 }
 
 #event_highlight h3 {

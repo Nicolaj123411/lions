@@ -22,9 +22,10 @@
 			<div class="dropdown">
 			  <button class="dropbtn">NYHEDER</button>
 			  <div class="dropdown-content">
-			    <a href="#">Link 1</a>
-			    <a href="#">Link 2</a>
-			    <a href="#">Link 3</a>
+			    <a href="#">Nyheder</a>
+			    <a href="#">Nyheder fra Lokalklubberne</a>
+			    <a href="#">Lion Magasin</a>
+			    <a href="#">Lion Magasin Annoncer</a>
 			  </div>
 			</div>
 		</div>
@@ -33,9 +34,8 @@
 			<div class="dropdown">
 			  <button class="dropbtn">BLIV FRIVILLIG</button>
 			  <div class="dropdown-content">
-			    <a href="#">Link 1</a>
-			    <a href="#">Link 2</a>
-			    <a href="#">Link 3</a>
+			    <a href="#">Bliv Medlem</a>
+			    <a href="#">Klubtyper</a>
 			  </div>
 			</div>
 		</div>
@@ -44,9 +44,14 @@
 			<div class="dropdown">
 			  <button class="dropbtn">FOR UNGE</button>
 			  <div class="dropdown-content">
-			    <a href="#">Link 1</a>
-			    <a href="#">Link 2</a>
-			    <a href="#">Link 3</a>
+			    <a href="#">Ungdomsudvekling</a>
+			    <a href="#">Leo Klubber</a>
+			    <a href="#">Lions Adventure</a>
+			    <a href="#">Handicaplejr i Osted</a>
+			    <a href="#">Lions Quest</a>
+			    <a href="#">Mod Misbrug</a>
+			    <a href="#">Orkester Norden</a>
+				<a href="#">Fredsplakat Konkurrence</a>
 			  </div>
 			</div>
 		</div>
@@ -55,9 +60,10 @@
 			<div class="dropdown">
 			  <button class="dropbtn">EVENTS</button>
 			  <div class="dropdown-content">
-			    <a href="#">Link 1</a>
-			    <a href="#">Link 2</a>
-			    <a href="#">Link 3</a>
+			    <a href="#">Internationale Projekter</a>
+			    <a href="#">Nordisk Samarbejde - NSR</a>
+			    <a href="#">Blindesagen</a>
+			    <a href="#">Lionskollegiet</a>
 			  </div>
 			</div>
 		</div>
@@ -66,9 +72,10 @@
 			<div class="dropdown">
 			  <button class="dropbtn">PROJEKTER</button>
 			  <div class="dropdown-content">
-			    <a href="#">Link 1</a>
-			    <a href="#">Link 2</a>
-			    <a href="#">Link 3</a>
+			    <a href="#">Lions Klubberns Katastrofehjælp</a>
+			    <a href="#">LCIF</a>
+			    <a href="#">Lions Pris</a>
+			    <a href="#">Grønlandsfonden</a>
 			  </div>
 			</div>
 		</div>
@@ -77,9 +84,13 @@
 			<div class="dropdown">
 			  <button class="dropbtn">OM LIONS</button>
 			  <div class="dropdown-content">
-			    <a href="#">Link 1</a>
-			    <a href="#">Link 2</a>
-			    <a href="#">Link 3</a>
+			    <a href="#">Lions Hjælper</a>
+			    <a href="#">Fakta om Lions</a>
+			    <a href="#">Klubbens Organisation</a>
+			  	<a href="#">Økonomi</a>
+			  	<a href="#">Formål og Etik</a>	    
+			  	<a href="#">Lions Logo</a>
+			    <a href="#">Lions Historie</a>
 			  </div>
 			</div>
 		</div>

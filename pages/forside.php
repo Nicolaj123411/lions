@@ -6,55 +6,67 @@ include 'includes/header.php';
  ?>
 <section id="main_content">
 	<section class="flex" id="news_card">
+
+
 		<article>
-			<img src="http://via.placeholder.com/350x250" alt="">
-			<p id="news_card_headline">Overskrift 1</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas eos quo repudiandae repellat exercitationem quam, aspernatur obcaecati nulla suscipit quod.</p>
-			<p id="news_card_bottomlink">LÆS MERE</p>
-		</article>
- 
-		<article>
-			<img src="http://via.placeholder.com/350x250" alt="">
-			<p id="news_card_headline">Overskrift 2</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore fugiat dolor, voluptatum impedit natus amet similique ipsam dolore dignissimos quidem ad, laborum aliquam quia eos facere nam numquam saepe pariatur!</p>
+			<img src="img/nyheder_billeder/nyheder_3.jpg" alt="">
+			<p id="news_card_headline">Lions yder hurtig hjælp: 250.000 kr. til børnene i Caribien</p>
+			<p>Lions katastrofehjælp yder hjælpen via UNICEF, der allerede er på stedet. Det er utroligt vigtigt, da tusindvis af børn i Caribien lige nu står med et akut behov for vand, mad og beskyttelse...</p>
 			<p id="news_card_bottomlink">LÆS MERE</p>
 		</article>
 
 		<article>
-			<img src="http://via.placeholder.com/350x250" alt="">
-			<p id="news_card_headline">Overskrift 3</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus facere quia debitis laborum, porro dolorum esse tempore! Quas ducimus, ipsa numquam explicabo eos nemo atque, repudiandae sequi, dolores consequatur enim.</p>
+			<img src="img/nyheder_billeder/nyheder_1.jpg" alt="">
+			<p id="news_card_headline">Marathon på indlandsisen: Kørestol ingen hindring</p>
+			<p>Steen og Peder Mondrup - bedre kendt som Team Tvilling - udfordrer indlandsisen i kørestol - med støtte fra Lions Klubberne i hovedstadszonen. Sammen med storebror deltager de i verdens koldeste marathon.</p>
 			<p id="news_card_bottomlink">LÆS MERE</p>
 		</article>
+ 
+		<article>
+			<img src="img/nyheder_billeder/nyheder_2.jpg" alt="">
+			<p id="news_card_headline">100.000 kroner til ofrene for katastrofen i Sri Lanka</p>
+			<p>Lions Klubbernes Katastrofehjælp har besluttet at støtte hjælpearbejdet i Sri Lanka med 100.000 kroner.
+			</p>
+			<p id="news_card_bottomlink">LÆS MERE</p>
+		</article>
+
 	</section>
 
 
 	<section class="flex" id="donations">
 		<article>
-			<img src="http://via.placeholder.com/350x250" alt="">
+			<ul class="stat_icon">
+				<i class="fa fa-user-plus"></i>
+			</ul>
 			<p id="Value_medlemmer" ></p>
 			<p id="donation_text">MEDLEMMER I DANMARK</p>
 			
 		</article>
 
 		<article>
-			<img src="http://via.placeholder.com/350x250" alt="">
+			<ul class="stat_icon">			
+				<i id="stat_icon" class="fa fa-money"></i>
+			</ul>
 			<p id="value_DONERET"></p>
 			<p id="donation_text">DONERET MILIONER I ÅR</p>
 			
 		</article>
 
-		<article>
-			<img src="http://via.placeholder.com/350x250" alt="">
+		<article>	
+			<ul class="stat_icon">
+				<i id="stat_icon" class="fa fa-globe"></i>
+			</ul>
 			<p id="value_lande">190</p>
 			<p id="donation_text">LANDE MED LIONS</p>
 			
 		</article>
 
 		<article>
-			<img src="http://via.placeholder.com/350x250" alt="">
+			<ul class="stat_icon">
+				<i id="stat_icon" class="fa fa-users"></i>
+			</ul>
 			<p id="value_klubber">300</p>
-			<p id="donation_text">LOKALE KLUBBER I DANMARK</p>
+			<p id="donation_text">DANSKE KLUBBER</p>
 			
 		</article>
 	</section>
