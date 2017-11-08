@@ -331,6 +331,7 @@ header nav {
 #events_list_wrapper {
 	background-color: white;
 	flex: 6;
+	padding: 20px;
 }
 
 #events_list {
@@ -370,6 +371,7 @@ header nav {
 	margin-right: 20px;
 	margin-bottom: 20px; 
 }
+
 
 
 
