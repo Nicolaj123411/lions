@@ -147,7 +147,7 @@ button.accordion:hover, button.accordion.is-open{
 }
 
 #news_card{
-	background-color: grey;
+	background-color: #F1F1F1;
 	position: relative;
 	top: -100px;
 }
