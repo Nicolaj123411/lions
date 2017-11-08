@@ -20,6 +20,7 @@
 			require_once HOME;
 		}	
 	?>
+	
 
 	<script src="js/js.js"></script>
 </body>
