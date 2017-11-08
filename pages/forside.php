@@ -58,6 +58,10 @@ include 'includes/header.php';
 			
 		</article>
 	</section>
+
+	<?php 
+		include 'includes/kalender.php';
+	?>
 </section>
 </div>
 
