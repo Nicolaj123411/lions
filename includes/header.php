@@ -84,8 +84,10 @@
 			</div>
 		</div>
 
-		
-	
-	<!-- MENU SLUT -->
 </div>
+	<!-- MENU SLUT -->
+
+<img id=header_img src="img/header_billeder/header_img.jpg" alt="">
+
+
 </header>

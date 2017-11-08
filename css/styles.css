@@ -373,8 +373,16 @@ header nav {
 }
 
 
-
-
 /* KALENDER SLUT */
 
 
+/* HEADER BILLEDE */
+#header_img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+/* HEADER SLUT */
