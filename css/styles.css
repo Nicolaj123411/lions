@@ -4,7 +4,7 @@
 	font-family: helvetica;
 }
 body{
-	background-color: whitesmoke;
+	background-color: #F1F1F1;
 }
 #wrapper{
 	max-width: 1280px;
@@ -148,6 +148,8 @@ button.accordion:hover, button.accordion.is-open{
 
 #news_card{
 	background-color: grey;
+	position: relative;
+	top: -100px;
 }
 	#news_card article{
 		margin: 10px;
@@ -167,9 +169,7 @@ button.accordion:hover, button.accordion.is-open{
 		font-weight: bold;
 	}
 
-#news_card{
-	background-color: grey;
-}
+
 	#donations article{
 		margin: 10px;
 		flex:1;
@@ -231,7 +231,7 @@ button.accordion:hover, button.accordion.is-open{
 	/* MENU */
 
 .dropbtn {
-    background-color: #03217A;
+    background-color: #EBB700;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -300,10 +300,17 @@ header nav {
  	text-decoration: none;
  	margin-left: 50px;
 }
+#menu_quick_links li a{
+	color: #000;
+	text-decoration: none;
+	font-size: 24px;
+
+
+}
 
 #menu_wrapper
 	{
-		background-color: red;
+		background-color: #EBB700;
 		justify-content: center;
 
 	}

@@ -8,8 +8,8 @@
 	
 			<nav id="menu_quick_links">
 				<ul>
-					<li><a href="#">STØT</a></li>
-					<li><a href="#">KONTAKT</a></li>
+					<li><a href="#">Støt os</a></li>
+					<li><a href="#">Kontakt</a></li>
 				</ul>
 			</nav>
 </div>
@@ -87,7 +87,7 @@
 </div>
 	<!-- MENU SLUT -->
 
-<img id=header_img src="img/header_billeder/header_img.jpg" alt="">
+<img id=header_img src="img/header_billeder/header_img_forside.jpg" alt="">
 
 
 </header>

@@ -22,6 +22,14 @@
 	?>
 	
 
+	<?php
+		include 'includes/footer.php';
+	?>
+	
 	<script src="js/js.js"></script>
+
 </body>
+
+
+
 </html>
