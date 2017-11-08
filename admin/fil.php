@@ -2,15 +2,7 @@
 
 //Opret forbindelse til databasen med PDO 
 //Der kan nemt skiftes database ved at ændre MYSQL HOST og DBNAME
-try {
-	$handler = new PDO('mysql:host=127.0.0.1;dbname=test', 'root', '');
-	$handler->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-	//Fanger fejl og DIE efter fejlen er outputtet.
-} catch (PDOExeption $e) {
-	echo $e->getMessage();
-	die();
-}
 
 /*
 //Få resultat fra databasen
