@@ -6,7 +6,7 @@
 		</a>
 	</div>
 	
-			<nav id="menu_quick_links">
+			<nav id="menu_quick_links" style="margin-right: 1%">
 				<ul>
 					<li><a href="#">Støt os</a></li>
 					<li><a href="#">Kontakt</a></li>
