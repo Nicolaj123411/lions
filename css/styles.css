@@ -334,8 +334,10 @@ button.accordion:hover, button.accordion.is-open{
 	background-color: #EBB700;
 	color: white;
 	margin: 10px;
-	width: 100px;
+	text-decoration: none;
 	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
 
