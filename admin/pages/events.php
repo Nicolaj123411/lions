@@ -1,3 +1,13 @@
+						<?php
+				if(isset($_GET['success'])){
+					if ($_GET['success'] == "true"){
+						echo "<div class='success-message'><h1>Ændrigen er fortaget!</h1><a href='../index.php?page=events'>Tryk her for at se ændringen!</a></div>";
+					}elseif ($_GET['success'] == "false"){
+						echo "<h1>Ændringen mislykkedes</h1>";
+					}
+				}
+			?>
+
 			<div id="table">
 				<div class="flex table-header">
 					<a href="new-event.php">Opret event</a>
@@ -33,7 +43,7 @@ if($query->rowCount()){
 					<li><img src="<?php echo $r->img; ?>" alt=""></li>
 					<li>
 						<a class="orange-bg" href="?admin_page=event-detail&event_id=<?php echo $r->id; ?>">REDIGER</a>
-						<a class="red-bg" href="#">SLET</a>
+						<a class="red-bg" href="?admin_page=delete-event&event_id=<?php echo $r->id; ?>">SLET</a>
 					</li>
 				</ul>	
 			</div>
@@ -44,32 +54,5 @@ if($query->rowCount()){
 }
 
 ?>
-
-
-				<div class="table-row">
-					<ul class="flex">
-						<li><?php echo date("d/m/Y"); ?></li>
-						<li>Overskrift på hvad end det nu er</li>
-						<li style="flex: 4;">Tekst til tingen Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sapiente cum, at officia pariatur ipsam aperiam unde qui libero voluptatibus!</li>
-						<li><img src="https://images.unsplash.com/photo-1464500422302-6188776dcbf3?auto=format&fit=crop&w=2621&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="" height="100" width="100"></li>
-						<li>
-							<a class="orange-bg" href="#">REDIGER</a>
-							<a class="red-bg" href="#">SLET</a>
-						</li>
-					</ul>	
-				</div>
-
-				<div class="table-row">
-					<ul class="flex">
-						<li><?php echo date("d/m/Y"); ?></li>
-						<li>Overskrift på hvad end det nu er</li>
-						<li style="flex: 4;">Tekst til tingen Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda sapiente cum, at officia pariatur ipsam aperiam unde qui libero voluptatibus!</li>
-						<li><img src="https://images.unsplash.com/photo-1489251242924-a7289d345073?auto=format&fit=crop&w=2555&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" alt="" height="100" width="100""></li>
-						<li>
-							<a class="orange-bg" href="#">REDIGER</a>
-							<a class="red-bg" href="#">SLET</a>
-						</li>
-					</ul>	
-				</div>
 			</div>
 		
