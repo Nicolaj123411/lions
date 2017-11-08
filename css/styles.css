@@ -376,3 +376,19 @@ header nav {
 /* KALENDER SLUT */
 
 
+
+
+@media screen and (max-width: 480px) {
+  	#events_wrapper{
+  		display: initial;
+  	}
+
+  	body{
+  		background-color: red;
+  	}
+
+  	#kalender_wrapper h2{
+		font-size: 20px;
+  	}
+}
+
