@@ -281,6 +281,54 @@ button.accordion:hover, button.accordion.is-open{
 
 /* KALENDER START */
 
+#kalender_wrapper {
+	background-color: #F1F1F1;
+	margin: 25px;
+	padding: 25px;
+	height: 200px;
+}
+
+#events_wrapper {
+	padding-top: 25px;
+}
+
+#events_list_wrapper {
+	background-color: red;
+	flex: 6;
+}
+
+#events_list {
+	background-color;
+}
+
+#event_highlight {
+	background-color: white;
+	flex: 4;
+	margin-left: 25px;
+}
+
+#event_highlight h2 {
+	color: #273582;
+	margin: 10px;
+}
+
+#event_highlight p {
+	margin: 10px;
+}
+
+#event_img {
+	height: auto;
+	width: 100%;
+	margin: 0;
+}
+
+#event_button {
+	padding: 5px;
+	background-color: #EBB700;
+}
+
+
+
 /* KALENDER SLUT */
 
 
