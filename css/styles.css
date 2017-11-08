@@ -316,7 +316,12 @@ header nav {
 	background-color: #F1F1F1;
 	margin: 25px;
 	padding: 25px;
-	height: 200px;
+}
+
+#kalender_wrapper h2 {
+	color: #273582;
+	font-style: normal;
+	font-size: 40px;
 }
 
 #events_wrapper {
@@ -324,7 +329,7 @@ header nav {
 }
 
 #events_list_wrapper {
-	background-color: red;
+	background-color: white;
 	flex: 6;
 }
 
@@ -338,7 +343,7 @@ header nav {
 	margin-left: 25px;
 }
 
-#event_highlight h2 {
+#event_highlight h3 {
 	color: #273582;
 	margin: 10px;
 }
@@ -355,7 +360,15 @@ header nav {
 
 #event_button {
 	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
 	background-color: #EBB700;
+	color: white;
+	margin: 10px;
+	text-decoration: none;
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px; 
 }
 
 
