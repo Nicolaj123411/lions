@@ -312,6 +312,7 @@ header {
 header .logo {
 	width: 100px;
 	float: left;
+	margin-left: 1%
 }
  
 header nav {
@@ -335,8 +336,11 @@ header nav {
 	{
 		background-color: #EBB700;
 		justify-content: center;
+}
 
-	}
+.menu{
+	margin-left: 2%;
+}
 
 
 
@@ -416,18 +420,85 @@ header nav {
 
 
 /* HEADER SLUT */
+@media screen and (max-width: 1025px) {
+	  	#events_wrapper{
+  		display: initial;
+  	}
 
+  	#kalender_wrapper h2{
+		font-size: 20px;
+  	}
+
+  	.dropdown {
+    position: relative;
+    display: inline-block;
+	margin-left: 0px;
+    margin-right: 0px;
+	}
+
+	.dropbtn {
+    background-color: #EBB700;
+    color: white;
+    padding: 8%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+}
+.menu{
+	margin-left: 2%;
+}
+}
 
 @media screen and (max-width: 480px) {
   	#events_wrapper{
   		display: initial;
   	}
 
-  	body{
-  		background-color: red;
+
+  	#news_card{
+  		display: initial;
   	}
+
+  	.news_card_1{
+  		padding-left: 8%;
+ 		padding-right: 8%; 	
+  	}
+  	.news_card_2{
+  		padding-left: 8%;
+ 		padding-right: 8%; 	
+  	}
+  	.news_card_3{
+  		padding-left: 8%;
+ 		padding-right: 8%; 	
+  	}
+
+#donations{
+	display: none;
+}
 
   	#kalender_wrapper h2{
 		font-size: 20px;
   	}
+
+  	.dropdown {
+    position: relative;
+    display: inline-block;
+	margin-left: 0px;
+    margin-right: 0px;
+	}
+
+	.dropbtn {
+    background-color: #EBB700;
+    color: white;
+    padding: 5%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+}
+.menu{
+	margin-left: 0%;
+}
+
 }
