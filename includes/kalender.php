@@ -1,10 +1,12 @@
+<?php 
+include('functions.php');
+$page = singlePage();
+ ?>
 <div id="kalender_wrapper">
 
 	<h2>Kommende events</h2>
 
 	<div id="events_wrapper" class="flex">
-
-
 
 		<div id="events_list_wrapper">
 			
@@ -109,8 +111,8 @@
 
 		<div id="event_highlight">
 			<img id="event_img" src="http://via.placeholder.com/650x450" alt="">
-			<h3>Katastrofehjælp</h3>
-			<p>Lions Katastrofehjælp yder hjælpen via UNICEF, der allerede er på stedet. Det er utroligt vigtigt, da tusindvis... </p>
+			<h3><?php echo $page['title']; ?></h3>
+			<p><?php echo $page['brød_text']; ?></p>
 		<a href="" id="event_button">
 			Mere info
 		</a></div>
