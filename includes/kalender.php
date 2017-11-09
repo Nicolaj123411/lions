@@ -25,12 +25,13 @@ $page = singlePage();
 			<div class="accordion-content">
 				<div class="event_desc_wrapper">
 
-					<img style="float: right;" src="http://via.placeholder.com/200x200" alt="event description image">
+					
 					<h5>Jubilæumskoncert</h5>
-				<p>I september 2017 er det 30 år siden at Lions Fjends blev stiftet, som en lokal afdeling af den verdensomspændende humanitære organisation Lions Clubs International. Dette fejrer vi med en koncert med Prinsens Musikkorps og solist Mette Poulsen på Kongenshus Efterskole onsdag 15. november 2017, kl. 19-21:30. Under koncerten donerer vi midler til projekter i bl.a. lokalområdet.</p>
+				<img style="float: right;" src="img/event_billeder/julekoncert.jpg" alt="event description image">
+				<p>I september 2017 er det 30 år siden at Lions Fjends blev stiftet, som en lokal afdeling af den verdensomspændende humanitære organisation Lions Clubs International. Dette fejrer vi med en koncert med Prinsens Musikkorps og solist Mette Poulsen på Kongenshus Efterskole onsdag 15. november 2017, kl. 19-21:30. </p>
 
 				<h5>Tilmelding</h5> 
-				<p>Billetter til arrangementet (incl. kaffe&kage) koster kr. 50,- og kan købes og betales med Dankort.Desuden kan billetter reserveres hos Ejvind Jakobsen, tlf. 40411296.</p>
+				<p>Billetter til arrangementet (incl. kaffe og kage) koster kr. 50,- og kan købes og betales med Dankort.Desuden kan billetter reserveres hos Ejvind Jakobsen, tlf. 40411296.</p>
 		
 				<h5>Tidsplan</h5>
 				<div class="tidsplan">
@@ -57,8 +58,8 @@ $page = singlePage();
 			<div class="accordion-content">
 				<div class="event_desc_wrapper">
 
-					<img style="float: right;" src="http://via.placeholder.com/200x200" alt="event description image">
 					<h5>Husk gratis entre</h5>
+					<img style="float: right;" src="img/event_billeder/julemarked.jpg" alt="event description image">
 				<p>Til Julemarkedet plejer vi at få besøg af 3.000 - 4.000 gæster, og for mange af vores gæster er det en tradition at besøge Julemarkedet og gøre et par juleindkøb. Mange har en dejlig familie oplevelse med børnebørn, med venner, naboer eller måske bare en lejlighed til at komme ud og få lidt frisk luft.</p>
 
 				<h5>Åbent lørdag og søndag</h5> 
@@ -89,8 +90,8 @@ $page = singlePage();
 			<div class="accordion-content">
 				<div class="event_desc_wrapper">
 
-					<img style="float: right;" src="http://via.placeholder.com/200x200" alt="event description image">
 					<h5>Husk! Det er gratis</h5>
+					<img style="float: right;" src="img/event_billeder/banko.jpg" alt="event description image">
 				<p>Pensionist-Banko afholdes normalt den første søndag i november. Hvis du vil tilmeldes, så kan du sende en mail til ishoej@lions.dk.</p>
 
 				<h5>Brilleindsamling</h5> 
@@ -114,7 +115,7 @@ $page = singlePage();
 		</div>
 
 		<div id="event_highlight">
-			<img id="event_img" src="http://via.placeholder.com/650x450" alt="">
+			<img id="event_img" src="img/event_billeder/briller.jpg" alt="event description image">
 			<h3><?php echo $page['title']; ?></h3>
 			<p><?php echo $page['brød_text']; ?></p>
 		<a href="" id="event_button">
