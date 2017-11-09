@@ -117,10 +117,10 @@ $page = singlePage();
 		<div id="event_highlight">
 			<img id="event_img" src="img/event_billeder/briller.jpg" alt="event description image">
 			<h3><?php echo $page['title']; ?></h3>
-			<p><?php echo $page['brød_text']; ?></p>
+			<p><?php echo $page['brød_text']; ?>
 		<a href="" id="event_button">
 			Mere info
-		</a></div>
+		</a></p></div>
 		</div>
 
 	</div>
