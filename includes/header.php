@@ -1,7 +1,7 @@
 <header>
 <div class="flex" style="justify-content: space-between;">
 	<div class="logo">
-		<a href="#">
+		<a href="index.php">
 			<img src="img/LIONS_LOGO_SVG.svg" alt="Lions logo">
 		</a>
 	</div>
@@ -57,8 +57,9 @@
 		</div>
 
 		<div class="menu">
-			<div class="dropdown">
+			<div class="dropdown"><a href="?page=events">
 			  <button class="dropbtn">EVENTS</button>
+			  </a>
 			  <div class="dropdown-content">
 			    <a href="#">Internationale Projekter</a>
 			    <a href="#">Nordisk Samarbejde - NSR</a>

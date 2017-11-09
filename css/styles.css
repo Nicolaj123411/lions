@@ -614,5 +614,10 @@ header nav {
 .menu{
 	margin-left: 0%;
 }
+.event-image {
+    flex: 1;
+    position: relative;
+    display: none;
+}
 
 }
