@@ -4,10 +4,10 @@ $weekday = 'monday';
 
 swithc($weekday){
 	case'monday':
-		echo "I dont like mondays";
+		echo "It's monday but i like Kenneth";
 		break;
 	case'Wedensday':
-		echo "Ondagssegl";
+		echo "Just because it's Wedensday i still like Kenneth";
 		break;
 	case 'friday':
 	case 'saturday':

@@ -92,7 +92,6 @@ function animateValue(id, start, end, duration) {
    // resultater fra oven over sættes sammen her
     stepTime = Math.max(stepTime, minTimer);
     
-    // get current time and calculate desired end time
     var startTime = new Date().getTime();
     var endTime = startTime + duration;
     var timer;
