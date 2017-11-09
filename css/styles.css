@@ -144,12 +144,15 @@ button.accordion:hover, button.accordion.is-open{
 	background-color: #FFF;
 	max-width: 1000px;
 	margin: auto;
+	margin-bottom: 25px;
+	margin-top: -100px;
+	padding-bottom: 25px;
+	box-shadow: 1px 2px 5px -1px rgba(0,0,0,0.75);
 }
 
 #news_card{
 	background-color: #fff;
 	position: relative;
-	top: -100px;
 	padding: 25px;
 }
 	#news_card article{
@@ -255,7 +258,7 @@ button.accordion:hover, button.accordion.is-open{
 
 .dropbtn {
     background-color: #EBB700;
-    color: white;
+    color: #000;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -298,6 +301,7 @@ button.accordion:hover, button.accordion.is-open{
 
 .dropdown:hover .dropbtn {
     background-color: #273582;
+    color: #fff;
 }
 
 
@@ -349,6 +353,7 @@ header nav {
 #kalender_wrapper {
 	background-color: #F1F1F1;
 	margin: 25px;
+	margin-bottom: 0px;
 	padding: 25px;
 }
 
@@ -386,6 +391,7 @@ header nav {
 
 #event_highlight p {
 	margin: 10px;
+	font-weight: lighter;
 }
 
 #event_img {
@@ -418,8 +424,31 @@ header nav {
 	margin-bottom: 0px;
 }
 
-
 /* HEADER SLUT */
+
+/* FOOTER START */
+
+#footer
+	{
+		background-color: #273582;
+		justify-content: center;
+		padding: 50px;
+		color: #fff;
+}
+
+/* FOOTER SLUT */
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1025px) {
 	  	#events_wrapper{
   		display: initial;

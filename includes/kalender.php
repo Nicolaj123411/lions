@@ -15,8 +15,8 @@ $page = singlePage();
 							<button class="accordion">
 				<div class="flex">
 				<div class="event-desc">
-					<h3>25/9 Loppemarked</h3>
-					<p>Det er utroligt vigtigt med hurtig hjælp, da tusindvis af børn i Caribien lige nu står med et akut behov for vand, mad og beskyttelse efter orkanen Irmas voldsomme hærgen. Lions Katastrofehjælp har derfor straks doneret 250.000 kroner til UNICEFs indsats i regionen.</p>
+					<h3>Jubilæumskoncert</h3>
+					<p>I september 2017 er det 30 år siden at Lions Fjends blev stiftet, som en lokal afdeling af den verdensomspændende humanitære organisation Lions Clubs International. Dette fejrer vi med en koncert med Prinsens Musikkorps og solist Mette Poulsen på Kongenshus Efterskole onsdag 15. november 2017, kl. 19-21:30. Under koncerten donerer vi midler til projekter i bl.a. lokalområdet.</p>
 				</div>
 				</div>
 				
@@ -26,17 +26,17 @@ $page = singlePage();
 				<div class="event_desc_wrapper">
 
 					<img style="float: right;" src="http://via.placeholder.com/200x200" alt="event description image">
-					<h5>lille overskrift</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sit eligendi repellendus et quibusdam ipsa dolorum doloribus, ipsam hic quae tempora, est expedita mollitia nihil a laboriosam, ipsum facilis saepe voluptas illo eaque! Doloremque ipsum, odit, fugit ipsam amet soluta dolor cupiditate sint, veritatis alias facilis quod accusamus in id!</p>
-				<h5>lille overskrift</h5> 
-				
-			
-				<p>Lorem ipsum dolor sit amet,s consectetur adipisicing elit. Totam sit eligendi repellendus et quibusdam ipsa dolorum doloribus, ipsam hic quae tempora, est expedita mollitia nihil a laboriosam, ipsum facilis saepe voluptas illo eaque! Doloremque ipsum, odit, fugit ipsam amet soluta dolor cupiditate sint, veritatis alias facilis quod accusamus in id!</p>
+					<h5>Jubilæumskoncert</h5>
+				<p>I september 2017 er det 30 år siden at Lions Fjends blev stiftet, som en lokal afdeling af den verdensomspændende humanitære organisation Lions Clubs International. Dette fejrer vi med en koncert med Prinsens Musikkorps og solist Mette Poulsen på Kongenshus Efterskole onsdag 15. november 2017, kl. 19-21:30. Under koncerten donerer vi midler til projekter i bl.a. lokalområdet.</p>
+
+				<h5>Tilmelding</h5> 
+				<p>Billetter til arrangementet (incl. kaffe&kage) koster kr. 50,- og kan købes og betales med Dankort.Desuden kan billetter reserveres hos Ejvind Jakobsen, tlf. 40411296.</p>
 		
 				<h5>Tidsplan</h5>
 				<div class="tidsplan">
-				<span>08:20 -  </span><p>Der er opvisning der og der </p>
-				<span>11:25 -  </span><p>Madboden åbner op for slag at mad og drikke huisk at medbring kontanter</p>
+				<span>19:00 -  </span><p>Velkomst og donationer samt servering af kaffe og kage</p>
+				<span>20:00 -  </span><p>Koncert med Prinsens Musikkorps og solist Mette Poulsen</p>
+				<span>21:00 -  </span><p>Afslutning</p>
 				
 				</div>
 			
@@ -47,8 +47,8 @@ $page = singlePage();
 							<button class="accordion">
 				<div class="flex">
 				<div class="event-desc">
-					<h3>25/9 Loppemarked</h3>
-					<p>Det er utroligt vigtigt med hurtig hjælp, da tusindvis af børn i Caribien lige nu står med et akut behov for vand, mad og beskyttelse efter orkanen Irmas voldsomme hærgen. Lions Katastrofehjælp har derfor straks doneret 250.000 kroner til UNICEFs indsats i regionen.</p>
+					<h3>Julemarkedet på Ulstrup Slot</h3>
+					<p>Snart åbner vi endnu engang for det årlige Julemarked på Ulstrup Slot, det er som sædvandlig den første hele weekend i december, dvs. den 2-3. december 2017.</p>
 				</div>
 				</div>
 				
@@ -58,17 +58,17 @@ $page = singlePage();
 				<div class="event_desc_wrapper">
 
 					<img style="float: right;" src="http://via.placeholder.com/200x200" alt="event description image">
-					<h5>lille overskrift</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sit eligendi repellendus et quibusdam ipsa dolorum doloribus, ipsam hic quae tempora, est expedita mollitia nihil a laboriosam, ipsum facilis saepe voluptas illo eaque! Doloremque ipsum, odit, fugit ipsam amet soluta dolor cupiditate sint, veritatis alias facilis quod accusamus in id!</p>
-				<h5>lille overskrift</h5> 
-				
-			
-				<p>Lorem ipsum dolor sit amet,s consectetur adipisicing elit. Totam sit eligendi repellendus et quibusdam ipsa dolorum doloribus, ipsam hic quae tempora, est expedita mollitia nihil a laboriosam, ipsum facilis saepe voluptas illo eaque! Doloremque ipsum, odit, fugit ipsam amet soluta dolor cupiditate sint, veritatis alias facilis quod accusamus in id!</p>
+					<h5>Husk gratis entre</h5>
+				<p>Til Julemarkedet plejer vi at få besøg af 3.000 - 4.000 gæster, og for mange af vores gæster er det en tradition at besøge Julemarkedet og gøre et par juleindkøb. Mange har en dejlig familie oplevelse med børnebørn, med venner, naboer eller måske bare en lejlighed til at komme ud og få lidt frisk luft.</p>
+
+				<h5>Åbent lørdag og søndag</h5> 
+				<p>Julemarkedet er åbent lørdag og søndag fra 10.00 - 16.00, så man har god tid til at nyde dagen på Ulstrup Slot - gøre en god handel, få noget lækkert til ganen og samtidig komme i julestemning i de mange hyggelige boder, der er opstillet i kælderen under hovedfløjen og i en af sidefløjene - det hele samlet omkring slotsgården.</p>
 		
 				<h5>Tidsplan</h5>
 				<div class="tidsplan">
-				<span>08:20 -  </span><p>Der er opvisning der og der </p>
-				<span>11:25 -  </span><p>Madboden åbner op for slag at mad og drikke huisk at medbring kontanter</p>
+				<span>10:00 - </span><p>Markedet åbner</p>
+				<span>12:30 -  </span><p>Julemanden kommer</p>
+				<span>13:30 -  </span><p>Hestevogn med ryttere drager afsted</p>
 				
 				</div>
 			
@@ -79,8 +79,8 @@ $page = singlePage();
 							<button class="accordion">
 				<div class="flex">
 				<div class="event-desc">
-					<h3>25/9 Loppemarked</h3>
-					<p>Det er utroligt vigtigt med hurtig hjælp, da tusindvis af børn i Caribien lige nu står med et akut behov for vand, mad og beskyttelse efter orkanen Irmas voldsomme hærgen. Lions Katastrofehjælp har derfor straks doneret 250.000 kroner til UNICEFs indsats i regionen.</p>
+					<h3>Bankospil i Ishøj</h3>
+					<p>Gennem efterhånden mange år Lions Club Ishøj har arrangeret bankospil for kommunens pensionister. I år er vi i Ishøj søndag eftermiddag samlet til bankospil i kantinen på Strandgårdskolen. Der bliver spillet om købmandskurve som hovedgevinster og en masse dejlige ting som række- og sidegevinster. Udover at spille banko er der også tid til hygge og drikke en kop kaffe med kringle eller en kold øl - alt sammen gratis. </p>
 				</div>
 				</div>
 				
@@ -90,17 +90,21 @@ $page = singlePage();
 				<div class="event_desc_wrapper">
 
 					<img style="float: right;" src="http://via.placeholder.com/200x200" alt="event description image">
-					<h5>lille overskrift</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam sit eligendi repellendus et quibusdam ipsa dolorum doloribus, ipsam hic quae tempora, est expedita mollitia nihil a laboriosam, ipsum facilis saepe voluptas illo eaque! Doloremque ipsum, odit, fugit ipsam amet soluta dolor cupiditate sint, veritatis alias facilis quod accusamus in id!</p>
-				<h5>lille overskrift</h5> 
+					<h5>Husk! Det er gratis</h5>
+				<p>Pensionist-Banko afholdes normalt den første søndag i november. Hvis du vil tilmeldes, så kan du sende en mail til ishoej@lions.dk.</p>
+
+				<h5>Brilleindsamling</h5> 
 				
 			
-				<p>Lorem ipsum dolor sit amet,s consectetur adipisicing elit. Totam sit eligendi repellendus et quibusdam ipsa dolorum doloribus, ipsam hic quae tempora, est expedita mollitia nihil a laboriosam, ipsum facilis saepe voluptas illo eaque! Doloremque ipsum, odit, fugit ipsam amet soluta dolor cupiditate sint, veritatis alias facilis quod accusamus in id!</p>
+				<p>I forbindelse med bankospillet bliver der indsamlet udtjente briller, som efter udmåling og rensning sendes til nye brugere i f.eks. Afrika. Efter alt at dømme bliver næste brilleindsamling i forbindelse med kommunal-valget den 21. november, hvor Lions Ishøj påtænker at opsætte indsamlingskasser ved de fem valgsteder i kommunen.</p>
+
+				<p>HUSK derfor de gamle briller, når du skal stemme! Skulle du gå hen at glemme brillerne – eller har du brevstemt, så er er der alligevel mulighed for at komme af med dem, så du skal blot ringe til 70 2635 70 og aftale et tidspunkt for afhentning. PÅ FORHÅND TAK.</p>
 		
 				<h5>Tidsplan</h5>
 				<div class="tidsplan">
-				<span>08:20 -  </span><p>Der er opvisning der og der </p>
-				<span>11:25 -  </span><p>Madboden åbner op for slag at mad og drikke huisk at medbring kontanter</p>
+				<span>18:00 -  </span><p>Kaffe og kage </p>
+				<span>18:30 -  </span><p>Bankospillet begynder</p>
+				<span>20:30 - </span><p>Afslutning</p>
 				
 				</div>
 			

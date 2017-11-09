@@ -38,7 +38,7 @@ include 'includes/header.php';
 				<i class="fa fa-user-plus"></i>
 			</ul>
 			<p id="Value_medlemmer" ></p>
-			<p id="donation_text">MEDLEMMER I DANMARK</p>
+			<p id="donation_text">DANSKE MEDLEMMER</p>
 			
 		</article>
 
