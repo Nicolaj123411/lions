@@ -2,8 +2,13 @@
 	<?php
 		require 'includes/header.php';
 	?>
-	<section id="main_content">
-<div class="event"> 
+
+
+
+
+<section class="main_content_events">
+	<div class="event"> 
+		<div id="headline_box">Events</div>
 			<button class="accordion">
 				<div class="flex">
 				<div class="event-desc">
