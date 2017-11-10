@@ -95,7 +95,8 @@ if($query->rowCount()){
 								<input name="time" type="text" value="<?php  echo $r->event_times; ?>" placeholder="08:45">
 						</li>
 						<li style="flex: 10;">
-							<textarea id="<?php echo $r->id; ?>" name="description"  form="<?php echo $r->id; ?>"><?php  echo $r->description; ?>DEN VIRKER IKKE </textarea>
+							<input name="description"  type="text" value="<?php  echo $r->description; ?>">
+							
 						</li>
 						<li>
 							<input class="update buttons" type="submit" value="OPDATER">
