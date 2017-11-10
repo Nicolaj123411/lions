@@ -481,11 +481,11 @@ header nav {
 
 #event_highlight h3 {
 	color: #273582;
-	margin: 10px;
+	margin: 7%;
 }
 
 #event_highlight p {
-	margin: 10px;
+	margin: 7%;
 	font-weight: lighter;
 }
 
@@ -503,7 +503,7 @@ header nav {
 	color: white;
 	text-decoration: none;
 	float: right;
-	margin-top: 10%;
+	margin-top: 7%;
  
 }
 
