@@ -13,4 +13,12 @@ function getEventNameById ($id){
 		return "Ingen resultater";
 	}
 }
+//funktion til at hente alle billederne ind fra mapperne i img mappen.
+function listFolderFiles($dir){
+    $ffs = scandir($dir);
+
+    unset($ffs[array_search('.', $ffs, true)]);
+    unset($ffs[array_search('..', $ffs, true)]);
+    return $ffs;
+}
 ?>
