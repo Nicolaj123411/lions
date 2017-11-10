@@ -12,8 +12,6 @@ foreach ($event_billeder as $event_billede) {
 ?>
 					
 
-					
-
 <?php
 	$header_billeder = listFolderFiles('../img/header_billeder');
 foreach ($header_billeder as $header_billede) {
