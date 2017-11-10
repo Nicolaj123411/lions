@@ -11,14 +11,14 @@ include 'includes/header.php';
 			<img src="img/nyheder_billeder/nyheder_3.jpg" alt="">
 			<p id="news_card_headline">Lions yder hurtig hjælp: 250.000 kr. til børnene i Caribien</p>
 			<p>Lions katastrofehjælp yder hjælpen via UNICEF, der allerede er på stedet. Det er utroligt vigtigt, da tusindvis af børn i Caribien lige nu står med et akut behov for vand, mad og beskyttelse...</p>
-			<p id="news_card_bottomlink">LÆS MERE</p>
+			<p id="news_card_bottomlink"><a href="?page=nyheder">LÆS MERE</a></p>
 		</article>
 
 		<article class="news_card_2">
 			<img src="img/nyheder_billeder/nyheder_1.jpg" alt="">
 			<p id="news_card_headline">Marathon på indlandsisen: Kørestol ingen hindring</p>
 			<p>Steen og Peder Mondrup - bedre kendt som Team Tvilling - udfordrer indlandsisen i kørestol - med støtte fra Lions Klubberne i hovedstadszonen. Sammen med storebror deltager de i verdens koldeste marathon.</p>
-			<p id="news_card_bottomlink">LÆS MERE</p>
+			<p id="news_card_bottomlink"><a href="?page=nyheder">LÆS MERE</a></p>
 		</article>
  
 		<article class="news_card_3">
@@ -26,7 +26,7 @@ include 'includes/header.php';
 			<p id="news_card_headline">100.000 kroner til ofrene for katastrofen i Sri Lanka</p>
 			<p>Lions Klubbernes Katastrofehjælp har besluttet at støtte hjælpearbejdet i Sri Lanka med 100.000 kroner.
 			</p>
-			<p id="news_card_bottomlink">LÆS MERE</p>
+			<p id="news_card_bottomlink"><a href="?page=nyheder">LÆS MERE</a></p>
 		</article>
 
 	</section>
