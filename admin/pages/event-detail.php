@@ -10,6 +10,7 @@
 
 			<div id="table">
 				<div class="flex table-header">
+					<a href="new-event-detail.php?event_id=<?php echo $_GET['event_id']; ?>">Tilføj indhold</a>
 					<h1>Event navn:</h1>
 					<form action="edit-event-detail.php" method="get">
 						<input type="text" value="<?php echo getEventNameById ($_GET['event_id']) ?>">
@@ -43,17 +44,20 @@ if($query->rowCount()){
 	while ($r = $query->fetch(PDO::FETCH_OBJ)) {
 		?>
 			<div class="table-row">
-				<form id="event_tid" class="row-edit" action="edit-event-detail.php" method="get">
+				<form id="<?php echo $r->event_id; ?>" class="row-edit" action="edit-event-detail.php" method="get">
+					<input  type="hidden" name="id" value="<?php echo $r->event_id; ?>">
 				<ul class="flex">
-					<li><input type="date" value="2017-06-01"></li>
-					<li><input type="text" value="<?php echo $r->title; ?>"></li>
-					<li style="flex: 4;"><textarea name="desc" form="event_tid"><?php echo $r->content; ?></textarea></li>
-					<li><img src="<?php echo $r->img; ?>" alt="" height="100" width="100"">
+					<li><input value="YYYY-MM-DD" name="date" id="<?php echo $r->event_id; ?>" type="date" value="<?php echo $r->date; ?>"></li>
+					<li><input name="headline" type="text" value="<?php echo $r->title; ?>"></li>
+					<li style="flex: 4;"><textarea id="<?php echo $r->event_id; ?>" name="desc" form="<?php echo $r->event_id; ?>"><?php echo $r->content; ?></textarea></li>
+					<li>
+						<a href="?admin_page=edit-image&page=event_content&id=<?php echo$r->event_id; ?>"><img src="../img/<?php echo $r->img; ?>" alt="" height="100" width="100""></a>
 					</li>
 					<li>
-						<a class="red-bg" href="?admin_page=delete-event&event_id= <?php echo $r->event_id; ?>">SLET</a>
+						<a class="red-bg" href="?admin_page=delete-event&table=event_content&event_id= <?php echo $r->event_id; ?>">SLET</a>
 						<a class="green-bg" href="#">OPDATER</a>
-						<a class="green-bg" href="edit-image.php">SKIFT BILLEDE</a>
+						<input type="submit" value="Opdater info">
+						<a class="green-bg" href="?admin_page=edit-image&page=event_content&id=<?php echo $r->event_id; ?>">SKIFT BILLEDE</a>
 					</li>
 				</ul>	
 			</form>
@@ -63,16 +67,18 @@ if($query->rowCount()){
 }else{
 		echo "Ingen resultater";
 	}
+	?>
+</div>	
 
-?>
-			</div>	
+
+
+
 			<div id="table">
 				<div class="flex table-header">
-					<a href="new-event.php">Tilføj tid</a>
+					<a href="new-event-time.php?event_id=<?php echo $event_id; ?>">Tilføj tid</a>
 					<h1>Event tider</h1>
 				</div>
-
-				<div class="table-row">
+								<div class="table-row">
 					<ul class="flex">
 						<li style="flex: 1;"><h1>Tidspunkt</h1></li>
 						<li style="flex: 10;"><h1>Beskrivelse</h1></li>
@@ -81,66 +87,35 @@ if($query->rowCount()){
 						</li>
 					</ul>	
 				</div>
-
+<?php
+		$query = $handler->query("SELECT * FROM event_time  WHERE event_id = '$event_id'");
+if($query->rowCount()){
+	while ($r = $query->fetch(PDO::FETCH_OBJ)) {
+		?>
 				<div class="table-row">
-					<form id="event_tid" class="row-edit" action="edit-event-detail.php" method="get">
-					<ul class="flex">
+					<form id="<?php echo $r->id; ?>" class="row-edit" action="edit-event-time.php" method="get">
+						<input type="hidden" name="id" value="<?php echo $r->id; ?>">
+					<ul class="flex"> 
 						<li>
-								<input name="time" id="time" type="text" value="08:45" placeholder="08:45">
+								<input name="time" type="text" value="<?php  echo $r->event_times; ?>" placeholder="08:45">
 						</li>
 						<li style="flex: 10;">
-							<textarea name="desc" form="event_tid">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At pariatur corporis doloribus beatae reiciendis ea, ipsum eius cumque sed dolorem?</textarea>
-
-							<input type="text-area" value="">
+							<textarea id="<?php echo $r->id; ?>" name="description"  form="<?php echo $r->id; ?>"><?php  echo $r->description; ?>DEN VIRKER IKKE </textarea>
 						</li>
 						<li>
 							<input class="update buttons" type="submit" value="OPDATER">
-							<input class="delete buttons" type="submit" value="SLET">
+							<a class="red-bg" href="?admin_page=delete-event&table=event_time&event_id= <?php echo $r->id; ?>">SLET</a>
 						</li>
 					</ul>	
 					</form>
 				</div>
+		<?php
+	}
+}else{
+		echo "Ingen resultater";
+	}
 
-								<div class="table-row">
-					<form id="event_tid" class="row-edit" action="edit-event-detail.php" method="get">
-					<ul class="flex">
-						<li>
-								<input name="time" id="time" type="text" value="08:45" placeholder="08:45">
-						</li>
-						<li style="flex: 10;">
-							<textarea name="desc" form="event_tid">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At pariatur corporis doloribus beatae reiciendis ea, ipsum eius cumque sed dolorem?</textarea>
+?>
+			
 
-							<input type="text-area" value="">
-						</li>
-						<li>
-							<input class="update buttons" type="submit" value="OPDATER">
-							<input class="delete buttons" type="submit" value="SLET">
-						</li>
-						</form>
-					</ul>	
-				</div>
-								<div class="table-row">
-					<form id="event_tid" class="row-edit" action="edit-event-detail.php" method="get">
-					<ul class="flex">
-						<li>
-								<input name="time" id="time" type="text" value="08:45" placeholder="08:45">
-						</li>
-						<li style="flex: 10;">
-							<textarea name="desc" form="event_tid">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At pariatur corporis doloribus beatae reiciendis ea, ipsum eius cumque sed dolorem?</textarea>
-
-							<input type="text-area" value="">
-						</li>
-						<li>
-							<input class="update buttons" type="submit" value="OPDATER">
-							<input class="delete buttons" type="submit" value="SLET">
-						</li>
-						</form>
-					</ul>	
-				</div>
-			</div>
-		</section>
-	</section>
-
-	</div>
-</body>
-</html>
+</div>

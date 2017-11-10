@@ -1,9 +1,12 @@
 <?php
-$event_id = $_GET['event_id'];
-	if ($handler->query("DELETE FROM `event` WHERE id = '$event_id'")){
-		echo "<script>window.location.replace('?admin_page=events&success=true');</script>";
-		die();
-	}else{
-		echo "den blev ikke slettet!";
-	}
+$id = $_GET['event_id'];
+$table = $_GET['table'];
+
+$sql = "DELETE FROM $table WHERE id = $id";
+$query = $handler->prepare($sql);
+if($query->execute()){
+	echo "der er slettet i databasen!";
+}else{
+	echo "Det virkede ikke!";
+}
 ?>

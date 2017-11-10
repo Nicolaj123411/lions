@@ -8,7 +8,7 @@
 
 <section class="main_content_events">
 	<div class="event"> 
-		<div id="headline_box">Events</div>
+		<div id="headline_box">events</div>
 			<button class="accordion">
 				<div class="flex">
 				<div class="event-desc">
