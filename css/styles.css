@@ -417,6 +417,9 @@ header nav {
  	text-decoration: none;
  	margin-left: 50px;
 }
+
+
+
 #menu_quick_links li a{
 	color: #000;
 	text-decoration: none;
@@ -428,6 +431,9 @@ header nav {
     padding-right: 25px;
 }
 
+
+
+
 #menu_wrapper
 	{
 		background-color: #EBB700;
@@ -438,9 +444,6 @@ header nav {
 	margin-left: 2%;
 }
 
-.menu::before{
-    content: "•";
-}
 
 /* KALENDER START */
 

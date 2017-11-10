@@ -19,8 +19,8 @@
 <!-- MENU -->
 <div id="menu_wrapper" class="flex">
 		<div class="menu">
-			<div class="dropdown">
-			  <button class="dropbtn">NYHEDER</button>
+			<div class="dropdown"><a href="?page=nyheder">
+			  <button class="dropbtn">NYHEDER</button></a>
 			  <div class="dropdown-content">
 			    <a href="#">Nyheder</a>
 			    <a href="#">Nyheder fra Lokalklubberne</a>
