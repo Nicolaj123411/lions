@@ -686,7 +686,24 @@ header nav {
 
 
 
+
+
 /* NYHEDER START */
+
+
+
+section main_content_nyheder{
+	max-width: 800px;
+	margin: auto;
+	margin-bottom: 25px;
+	margin-top: -100px;
+	padding-bottom: 25px;
+	background-color: #fff;
+}
+
+
+
+
 
 #nyheder_section {
 	position: relative;
@@ -712,9 +729,10 @@ header nav {
 		padding-bottom: 25px;
 	
 
-	
-
 }
+
+
+
 
 #headline_box_news {
 	padding: 5px;
