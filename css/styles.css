@@ -32,6 +32,7 @@ button.accordion{
 	transition: background-color 0.2s linear;
 	box-shadow: 1px 2px 5px -1px rgba(0,0,0,0.75);
 	background-color: #FFF;
+	overflow: hidden;
 }
 .event_desc_wrapper{
 	margin-top: 20px;
@@ -75,7 +76,8 @@ button.accordion:hover, button.accordion.is-open{
 .event-image{
 	flex: 1;
 	position: relative;
-
+	max-height: 200px;
+	max-width: 200px;
 }
 	.event-image img{
 		width: 100%;
@@ -83,6 +85,7 @@ button.accordion:hover, button.accordion.is-open{
 		margin: 0px;
 		line-height: auto;
 	}
+
 .event-desc{
 	flex: 2;
 }
@@ -102,29 +105,73 @@ button.accordion:hover, button.accordion.is-open{
 		font-weight: lighter;
 		padding-right: 40px;
 	}
+
+#events_billede {
+	max-width: 200px;
+	max-height: 200px;
+	margin-top: 50px;
+	float: right;
+}
+
+
+#events_billede_small {
+	max-width: 200px;
+	max-height: 200px;
+	float: right;
+}
+
+
 .img-overlay{
 	display: none;
 	position: absolute;	
 	opacity: 0;
 }
+
+
 	.is-open .img-overlay{
-		width: 100%;
 		margin-top: 50px;
-		background-color: #00338d;
+		width: 100%;
+		height: 100%;
+		background-color: #273582;
 		top: 0;
 		left: 0;
 		opacity: 0.5;
 		display: block;
 	}
+
+
 		.img-overlay p{
 			text-align:center;
+			color: #EBB700;
+			font-size: 15px;
+			padding-top: 30px;
 		}
+
+		.img-overlay h3{
+			text-align:center;
+			color: #EBB700;
+			font-size: 60px;
+			padding-top: 10px;
+		}
+
+		.img-overlay h4{
+			text-align:center;
+			color: #EBB700;
+			font-size: 15px;
+			
+		}
+
 		.img-overlay div{
-			background-color: green;
+			background-color: #273582;
 			width: 50%;
 			float: left;
 			text-align: center;
 		}
+
+
+
+
+
 .tidsplan span{
 	float: left;
 	margin-right: 5px;
@@ -149,6 +196,11 @@ button.accordion:hover, button.accordion.is-open{
 			font-size: 32pt;
 		}
 
+#next_event {
+	margin-bottom: 50px;
+}
+
+
 	/* GIT KODE TEST */ 
 
 	
@@ -172,11 +224,14 @@ button.accordion:hover, button.accordion.is-open{
 }
 
 #headline_box {
-	padding: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 10px;
 	background-color: #273582;
+	text-align: center;
+	font-size: 24px;
 	color: #fff;
+	width: 150px;
+	position: relative;
+    z-index: 1;
 }
 
 
@@ -297,6 +352,9 @@ button.accordion:hover, button.accordion.is-open{
     border-radius: 0px;
 }
 
+
+
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -363,8 +421,11 @@ header nav {
 	color: #000;
 	text-decoration: none;
 	font-size: 24px;
+}
 
-
+#menu_quick_links li a::before{
+    content: "•";
+    padding-right: 25px;
 }
 
 #menu_wrapper
@@ -377,7 +438,9 @@ header nav {
 	margin-left: 2%;
 }
 
-
+.menu::before{
+    content: "•";
+}
 
 /* KALENDER START */
 
@@ -413,15 +476,16 @@ header nav {
 	margin-left: 25px;
 	box-shadow: 1px 2px 5px -1px rgba(0,0,0,0.75);
 	max-height: 625px;
+	
 }
 
 #event_highlight h3 {
 	color: #273582;
-	margin: 10px;
+	margin: 7%;
 }
 
 #event_highlight p {
-	margin: 10px;
+	margin: 7%;
 	font-weight: lighter;
 }
 
@@ -439,7 +503,7 @@ header nav {
 	color: white;
 	text-decoration: none;
 	float: right;
-	margin-top: 10%;
+	margin-top: 7%;
  
 }
 
@@ -515,7 +579,6 @@ header nav {
 
 	.dropbtn {
     background-color: #EBB700;
-    color: white;
     padding: 8%;
     font-size: 16px;
     border: none;
@@ -524,6 +587,10 @@ header nav {
 }
 .menu{
 	margin-left: 2%;
+}
+.menu::before{
+    content: "•";
+    display: none;
 }
 
 }
@@ -604,7 +671,6 @@ header nav {
 
 	.dropbtn {
     background-color: #EBB700;
-    color: white;
     padding: 5%;
     font-size: 16px;
     border: none;
@@ -619,5 +685,61 @@ header nav {
     position: relative;
     display: none;
 }
-
+.menu::before{
+    content: "•";
+    display: none;
 }
+}
+
+
+
+
+
+/* NYHEDER START */
+
+
+#main_content_nyheder{
+    max-width: 1000px;
+    margin: auto;
+    margin-top: -100px;
+    padding-bottom: 25px;
+}
+
+#nyheder{
+	width: 80%;
+	margin: auto;
+	position: relative;
+}
+
+#nyheder_next{
+	    margin-bottom: 50px;
+	    background-color: #fff;
+	    padding: 75px;
+	   	box-shadow: 1px 2px 5px -1px rgba(0,0,0,0.75);
+}
+
+
+	#nyheder_next h2{
+		color: #273582;
+	}
+
+	#nyheder_next h3{
+		margin-top: 50px;
+	}
+
+	#nyheder_next p{
+		margin-top: 20px;
+	}
+	#nyheder_next a{
+		color: #273582;
+ 	   text-decoration: underline;
+ 	}
+
+ 	#nyheder_next img {
+    width: 40%;
+    height: auto;
+    margin: 25px;
+    float: right;
+	}
+
+/* NYHEDER SLUT */
