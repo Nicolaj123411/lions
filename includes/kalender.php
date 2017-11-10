@@ -95,11 +95,8 @@ $page = singlePage();
 				<p>Pensionist-Banko afholdes normalt den første søndag i november. Hvis du vil tilmeldes, så kan du sende en mail til ishoej@lions.dk.</p>
 
 				<h5>Brilleindsamling</h5> 
-				
+				<p><?php echo $page['Brilleindsamling']; ?></p>
 			
-				<p>I forbindelse med bankospillet bliver der indsamlet udtjente briller, som efter udmåling og rensning sendes til nye brugere i f.eks. Afrika. Efter alt at dømme bliver næste brilleindsamling i forbindelse med kommunal-valget den 21. november, hvor Lions Ishøj påtænker at opsætte indsamlingskasser ved de fem valgsteder i kommunen.</p>
-
-				<p>HUSK derfor de gamle briller, når du skal stemme! Skulle du gå hen at glemme brillerne – eller har du brevstemt, så er er der alligevel mulighed for at komme af med dem, så du skal blot ringe til 70 2635 70 og aftale et tidspunkt for afhentning. PÅ FORHÅND TAK.</p>
 		
 				<h5>Tidsplan</h5>
 				<div class="tidsplan">
