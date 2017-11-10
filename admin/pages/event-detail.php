@@ -11,11 +11,6 @@
 			<div id="table">
 				<div class="flex table-header">
 					<a href="new-event-detail.php?event_id=<?php echo $_GET['event_id']; ?>">Tilføj indhold</a>
-					<h1>Event navn:</h1>
-					<form action="edit-event-detail.php" method="get">
-						<input type="text" value="<?php echo getEventNameById ($_GET['event_id']) ?>">
-						<input type="submit" value="Opdater navn">
-					</form>
 				</div>
 
 				<div class="table-row">
@@ -78,7 +73,7 @@ if($query->rowCount()){
 					<a href="new-event-time.php?event_id=<?php echo $event_id; ?>">Tilføj tid</a>
 					<h1>Event tider</h1>
 				</div>
-								<div class="table-row">
+				<div class="table-row">
 					<ul class="flex">
 						<li style="flex: 1;"><h1>Tidspunkt</h1></li>
 						<li style="flex: 10;"><h1>Beskrivelse</h1></li>
@@ -88,10 +83,10 @@ if($query->rowCount()){
 					</ul>	
 				</div>
 <?php
-		$query = $handler->query("SELECT * FROM event_time  WHERE event_id = '$event_id'");
+$query = $handler->query("SELECT * FROM event_time  WHERE event_id = '$event_id'");
 if($query->rowCount()){
 	while ($r = $query->fetch(PDO::FETCH_OBJ)) {
-		?>
+?>
 				<div class="table-row">
 					<form id="<?php echo $r->id; ?>" class="row-edit" action="edit-event-time.php" method="get">
 						<input type="hidden" name="id" value="<?php echo $r->id; ?>">
