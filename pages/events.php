@@ -25,7 +25,7 @@
 				</ul>
 				</div>
 				<div class="event-image">
-					<img id="events_billede" src="img/event_billeder/julekoncert.jpg" alt="Event picture">
+					<img src="img/event_billeder/julekoncert.jpg" alt="Event picture">
 						<div class="img-overlay">
 							<p>Starter om</p>
 							<div>
@@ -80,7 +80,7 @@
 				</ul>
 				</div>
 				<div class="event-image">
-					<img id="events_billede" src="img/event_billeder/julemarked.jpg" alt="Event picture">
+					<img src="img/event_billeder/julemarked.jpg" alt="Event picture">
 						<div class="img-overlay">
 							<p>Starter om</p>
 							<div>
@@ -132,7 +132,7 @@
 				</ul>
 				</div>
 				<div class="event-image">
-					<img id="events_billede" src="img/event_billeder/banko.jpg" alt="Event picture">
+					<img src="img/event_billeder/banko.jpg" alt="Event picture">
 						<div class="img-overlay">
 							<p>Starter om</p>
 							<div>
@@ -189,7 +189,7 @@
 				</ul>
 				</div>
 				<div class="event-image">
-					<img id="events_billede" src="img/event_billeder/briller_2.jpg" alt="Event picture">
+					<img src="img/event_billeder/briller_2.jpg" alt="Event picture">
 						<div class="img-overlay">
 							<p>Starter om</p>
 							<div>

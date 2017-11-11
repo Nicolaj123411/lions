@@ -79,6 +79,8 @@ button.accordion:hover, button.accordion.is-open{
 	position: relative;
 	max-height: 200px;
 	max-width: 200px;
+    margin-top: 50px;
+    float: right;
 }
 	.event-image img{
 		width: 100%;
@@ -107,13 +109,6 @@ button.accordion:hover, button.accordion.is-open{
 		padding-right: 40px;
 	}
 
-#events_billede {
-	max-width: 200px;
-	max-height: 200px;
-	margin-top: 50px;
-	float: right;
-}
-
 
 #events_billede_small {
 	max-width: 200px;
@@ -130,7 +125,6 @@ button.accordion:hover, button.accordion.is-open{
 
 
 	.is-open .img-overlay{
-		margin-top: 50px;
 		width: 100%;
 		height: 100%;
 		background-color: #273582;
@@ -242,51 +236,56 @@ button.accordion:hover, button.accordion.is-open{
 	position: relative;
 	padding: 25px;
 }
-	#news_card article{
+	#news_card div{
 		flex:1;
 		background-color: #F1F1F1;
 		box-shadow: 1px 2px 5px -1px rgba(0,0,0,0.75);
 		margin: 5px;
 	}
 
-	#news_card article img {
+	#news_card div img {
 		width: 100%;
 		height: auto;
 		margin: 0px;
 		margin-bottom: 15px;
 	}
 
-	#news_card_headline{
-		margin-bottom: 1px;
-		font-weight: bold;
-	}
-	#news_card_bottomlink{
-		color: #03217A;
-		font-weight: bold;
-	}
 
 
-	#news_card article p {
+	#news_card p {
 		padding-right: 10px;
 		padding-left: 10px;
 		padding-bottom: 10px;
 	}
 
-	#news_card article a {
-		text-decoration: none;
-		color: #273582;
+	#news_card h4 {
+		margin-bottom: 1px;
+		font-weight: bold;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-bottom: 10px;
 	}
 
+	#news_card a {
+		text-decoration: none;
+		color: #273582;
+		font-weight: bold;
+				padding-right: 10px;
+		padding-left: 10px;
+		padding-bottom: 10px;
 
+	}
 
-	#donations article{
+	#news_card_bottomlink{
+		color: #03217A;
+		font-weight: bold;
+	}
+
+	#donations div{
 		margin: 10px;
 		flex:1;
 	}
-	#donations article img{
-		height: auto;
-		width: 100%;
-	}
+
 	#Value_medlemmer{
 		margin-bottom: 1px;
 		font-weight: bold;
@@ -295,7 +294,7 @@ button.accordion:hover, button.accordion.is-open{
 		font-size: 180%;
 		text-align: center;  
 	}
-	#donation_text{
+	#donations p{
 		margin-bottom: 1px;
 		font-weight: bold;
 		text-align: center;
@@ -355,9 +354,8 @@ button.accordion:hover, button.accordion.is-open{
     border: none;
     cursor: pointer;
     border-radius: 0px;
+    text-decoration: none;
 }
-
-
 
 
 .dropdown {
@@ -443,6 +441,7 @@ header nav {
 	{
 		background-color: #EBB700;
 		justify-content: center;
+		padding: 16px;
 }
 
 .menu{
@@ -474,9 +473,7 @@ header nav {
 	flex: 6;
 }
 
-#events_list {
-	background-color;
-}
+
 
 #event_highlight {
 	background-color: #fff;
@@ -719,7 +716,7 @@ header nav {
 	position: relative;
 }
 
-#nyheder_next{
+.nyheder_next{
 	    margin-bottom: 50px;
 	    background-color: #fff;
 	    padding: 75px;
@@ -727,23 +724,23 @@ header nav {
 }
 
 
-	#nyheder_next h2{
+	.nyheder_next h2{
 		color: #273582;
 	}
 
-	#nyheder_next h3{
+	.nyheder_next h3{
 		margin-top: 50px;
 	}
 
-	#nyheder_next p{
+	.nyheder_next p{
 		margin-top: 20px;
 	}
-	#nyheder_next a{
+	.nyheder_next a{
 		color: #273582;
  	   text-decoration: underline;
  	}
 
- 	#nyheder_next img {
+ 	.nyheder_next img {
     width: 40%;
     height: auto;
     margin: 25px;

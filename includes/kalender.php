@@ -11,8 +11,8 @@ $page = singlePage();
 		<div id="events_list_wrapper">
 			
 
-			<div id="events_list">
-							<button class="accordion">
+			<div>
+				<button class="accordion">
 				<div class="flex">
 				<div class="event-desc">
 					<h3>Jubilæumskoncert</h3>
@@ -44,7 +44,7 @@ $page = singlePage();
 				</div>
 		</div>
 			</div>
-			<div id="events_list">
+			<div>
 							<button class="accordion">
 				<div class="flex">
 				<div class="event-desc">
@@ -76,7 +76,7 @@ $page = singlePage();
 				</div>
 		</div>
 			</div>
-						<div id="events_list">
+						<div>
 							<button class="accordion">
 				<div class="flex">
 				<div class="event-desc">
