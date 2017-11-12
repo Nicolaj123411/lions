@@ -1,80 +1,97 @@
-
-
 <div id="wrapper">
 	<?php 
-include 'includes/header.php';
- ?>
-<section id="main_content">
-	<section class="flex" id="news_card">
+		include 'includes/header.php';
+ 	?>
+	<div id="main_content">
+		<div class="flex" id="news_card">
 
-		<article class="news_card_1">
-			<img src="img/nyheder_billeder/nyheder_3.jpg" alt="">
-			<p id="news_card_headline">Lions yder hurtig hjælp: 250.000 kr. til børnene i Caribien</p>
-			<p>Lions katastrofehjælp yder hjælpen via UNICEF, der allerede er på stedet. Det er utroligt vigtigt, da tusindvis af børn i Caribien lige nu står med et akut behov for vand, mad og beskyttelse...</p>
-			<p id="news_card_bottomlink"><a href="?page=nyheder">LÆS MERE</a></p>
-		</article>
+			<div class="news_card_1">
+				<img id="news_card_img" src="img/nyheder_billeder/nyheder_3.jpg" alt="">
 
-		<article class="news_card_2">
-			<img src="img/nyheder_billeder/nyheder_1.jpg" alt="">
-			<p id="news_card_headline">Marathon på indlandsisen: Kørestol ingen hindring</p>
-			<p>Steen og Peder Mondrup - bedre kendt som Team Tvilling - udfordrer indlandsisen i kørestol - med støtte fra Lions Klubberne i hovedstadszonen. Sammen med storebror deltager de i verdens koldeste marathon.</p>
-			<p id="news_card_bottomlink"><a href="?page=nyheder">LÆS MERE</a></p>
-		</article>
- 
-		<article class="news_card_3">
-			<img src="img/nyheder_billeder/nyheder_2.jpg" alt="">
-			<p id="news_card_headline">100.000 kroner til ofrene for katastrofen i Sri Lanka</p>
-			<p>Lions Klubbernes Katastrofehjælp har besluttet at støtte hjælpearbejdet i Sri Lanka med 100.000 kroner.
-			</p>
-			<p id="news_card_bottomlink"><a href="?page=nyheder">LÆS MERE</a></p>
-		</article>
+				<h4>Lions yder hurtig hjælp: 250.000 kr. til børnene i Caribien</h4>
 
-	</section>
+				<p>
+					Lions katastrofehjælp yder hjælpen via UNICEF, der allerede er på stedet. Det er utroligt vigtigt, da tusindvis af børn i Caribien lige nu står med et akut behov for vand, mad og beskyttelse...
+				</p>
+				<a href="?page=nyheder">LÆS MERE</a>
+			</div>
+
+			<div class="news_card_2">
+				<img src="img/nyheder_billeder/nyheder_1.jpg" alt="">
+
+				<h4>Marathon på indlandsisen: Kørestol ingen hindring</h4>
+
+				<p>
+					Steen og Peder Mondrup - bedre kendt som Team Tvilling - udfordrer indlandsisen i kørestol - med støtte fra Lions Klubberne i hovedstadszonen. Sammen med storebror deltager de i verdens koldeste marathon.
+				</p>
+				<a href="?page=nyheder">LÆS MERE</a>
+			</div>
+	 
+			<div class="news_card_3">
+				<img src="img/nyheder_billeder/nyheder_2.jpg" alt="">
+
+				<h4>100.000 kroner til ofrene for katastrofen i Sri Lanka</h4>
+
+				<p>
+					Lions Klubbernes Katastrofehjælp har besluttet at støtte hjælpearbejdet i Sri Lanka med 100.000 kroner.
+				</p>
+				<a href="?page=nyheder">LÆS MERE</a>
+			</div>
+
+		</div>
 
 
-	<section class="flex" id="donations">
-		<article>
-			<ul class="stat_icon">
-				<i class="fa fa-user-plus"></i>
-			</ul>
-			<p id="Value_medlemmer" ></p>
-			<p id="donation_text">DANSKE MEDLEMMER</p>
-			
-		</article>
+		<div class="flex" id="donations">
+			<div>
+				<p class="stat_icon">
+					<i class="fa fa-user-plus"></i>
+				</p>
+				<p id="Value_medlemmer" ></p>
+				<p>
+					DANSKE MEDLEMMER
+				</p>
+				
+			</div>
 
-		<article>
-			<ul class="stat_icon">			
-				<i id="stat_icon" class="fa fa-money"></i>
-			</ul>
-			<p id="value_DONERET"></p>
-			<p id="donation_text">DONERET MILIONER I ÅR</p>
-			
-		</article>
+			<div>
+				<p class="stat_icon">			
+					<i class="fa fa-money"></i>
+				</p>
+				<p id="value_DONERET"></p>
+				<p>
+					DONERET MILIONER I ÅR
+				</p>
+				
+			</div>
 
-		<article>	
-			<ul class="stat_icon">
-				<i id="stat_icon" class="fa fa-globe"></i>
-			</ul>
-			<p id="value_lande">190</p>
-			<p id="donation_text">LANDE MED LIONS</p>
-			
-		</article>
+			<div>	
+				<p class="stat_icon">
+					<i class="fa fa-globe"></i>
+				</p>
+				<p id="value_lande">190</p>
+				<p>
+					LANDE MED LIONS
+				</p>
+				
+			</div>
 
-		<article>
-			<ul class="stat_icon">
-				<i id="stat_icon" class="fa fa-users"></i>
-			</ul>
-			<p id="value_klubber">300</p>
-			<p id="donation_text">DANSKE KLUBBER</p>
-			
-		</article>
-	</section>
+			<div>
+				<p class="stat_icon">
+					<i class="fa fa-users"></i>
+				</p>
+				<p id="value_klubber">300</p>
+				<p>
+					DANSKE KLUBBER
+				</p>
+				
+			</div>
+		</div>
 
-	<?php 
-		include 'includes/kalender.php';
-	?>
-</section>
-</div>
+		<?php 
+			include 'includes/kalender.php';
+		?>
+	</div>
+
 
 <script>
 
