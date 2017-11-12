@@ -11,7 +11,7 @@
 	<div id="nyheder">
 	<div id="headline_box">NYHEDER</div>	
 
-			<div id="nyheder_next">
+			<div class="nyheder_next">
 				<h2>Lions yder hurtig hjælp: 250.000 kr. til børnene i Caribien</h2>
 				<img src="img/nyheder_billeder/nyheder_3.jpg" alt="nyhed">
 				<p>Det er utroligt vigtigt med hurtig hjælp, da tusindvis af børn i Caribien lige nu står med et akut behov for vand, mad og beskyttelse efter orkanen Irmas voldsomme hærgen. Lions Katastrofehjælp har derfor straks doneret 250.000 kroner til UNICEFs indsats i regionen.</p>
@@ -29,7 +29,7 @@
 			</div>
 
 
-			<div id="nyheder_next">
+			<div class="nyheder_next">
 				<h2>Marathon på indlandsisen: Kørestol ingen hindring</h2>
 				<img src="img/nyheder_billeder/nyheder_1.jpg" alt="nyhed">
 				<p>Når 175 kuldegale løbere  udfordrer den bidende grønlandske kulde i The Polar Circle Marathon, så er det med tre helt usædvanlige deltagere, tvillingerne Steen og Peder Mondrop - bedre kendt som Team Tvilling - i selskab med deres storebror. Færden over isen er sponseret af Lions klubberne i Hovedstadszonen.</p>
@@ -49,7 +49,7 @@
 				<p>E-mail: <a href="mailto:prd.md@lions.dk">prd.md@lions.dk</a></p>
 			</div>
 
-			<div id="nyheder_next">
+			<div class="nyheder_next">
 				<h2>100.000 kroner til ofrene for katastrofen i Sri Lanka</h2>
 				<img src="img/nyheder_billeder/nyheder_2.jpg" alt="nyhed">
 				<p>Oversvømmelser og efterfølgende jordskred koster mange liv</p>
@@ -67,3 +67,4 @@
 
 	</div>
 </section>
+</div>

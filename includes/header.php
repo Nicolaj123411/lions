@@ -20,7 +20,7 @@
 <div id="menu_wrapper" class="flex">
 		<div class="menu">
 			<div class="dropdown">
-			  <button class="dropbtn">NYHEDER</button>
+			  <a class="dropbtn" href="?page=nyheder">NYHEDER</a>
 			  <div class="dropdown-content">
 			    <a href="#">Nyheder</a>
 			    <a href="#">Nyheder fra Lokalklubberne</a>
@@ -32,7 +32,7 @@
 
 		<div class="menu">
 			<div class="dropdown">
-			  <button class="dropbtn">BLIV FRIVILLIG</button>
+			  <a class="dropbtn">FRIVILLIG</a>
 			  <div class="dropdown-content">
 			    <a href="#">Bliv Medlem</a>
 			    <a href="#">Klubtyper</a>
@@ -42,7 +42,7 @@
 
 		<div class="menu">
 			<div class="dropdown">
-			  <button class="dropbtn">FOR UNGE</button>
+			  <a class="dropbtn">UNGE</a>
 			  <div class="dropdown-content">
 			    <a href="#">Ungdomsudvekling</a>
 			    <a href="#">Leo Klubber</a>
@@ -57,9 +57,8 @@
 		</div>
 
 		<div class="menu">
-			<div class="dropdown"><a href="?page=events">
-			  <button class="dropbtn">EVENTS</button>
-			  </a>
+			<div class="dropdown">
+			  <a class="dropbtn" href="?page=events">EVENTS</a>
 			  <div class="dropdown-content">
 			    <a href="#">Internationale Projekter</a>
 			    <a href="#">Nordisk Samarbejde - NSR</a>
@@ -71,7 +70,7 @@
 
 		<div class="menu">
 			<div class="dropdown">
-			  <button class="dropbtn">PROJEKTER</button>
+			  <a class="dropbtn">PROJEKTER</a>
 			  <div class="dropdown-content">
 			    <a href="#">Lions Klubberns Katastrofehjælp</a>
 			    <a href="#">LCIF</a>
@@ -83,7 +82,7 @@
 
 		<div class="menu">
 			<div class="dropdown">
-			  <button class="dropbtn">OM LIONS</button>
+			  <a class="dropbtn">LIONS</a>
 			  <div class="dropdown-content">
 			    <a href="#">Lions Hjælper</a>
 			    <a href="#">Fakta om Lions</a>

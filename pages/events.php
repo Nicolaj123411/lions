@@ -25,7 +25,7 @@
 				</ul>
 				</div>
 				<div class="event-image">
-					<img id="events_billede" src="img/event_billeder/julekoncert.jpg" alt="Event picture">
+					<img src="img/event_billeder/julekoncert.jpg" alt="Event picture">
 						<div class="img-overlay">
 							<p>Starter om</p>
 							<div>
@@ -80,7 +80,7 @@
 				</ul>
 				</div>
 				<div class="event-image">
-					<img id="events_billede" src="img/event_billeder/julemarked.jpg" alt="Event picture">
+					<img src="img/event_billeder/julemarked.jpg" alt="Event picture">
 						<div class="img-overlay">
 							<p>Starter om</p>
 							<div>
@@ -106,8 +106,13 @@
 				<h5>Åbent lørdag og søndag</h5> 
 				<p>Julemarkedet er åbent lørdag og søndag fra 10.00 - 16.00, så man har god tid til at nyde dagen på Ulstrup Slot - gøre en god handel, få noget lækkert til ganen og samtidig komme i julestemning i de mange hyggelige boder, der er opstillet i kælderen under hovedfløjen og i en af sidefløjene - det hele samlet omkring slotsgården.</p>
 
-
-				<button>luk event</button>
+				<h5>Tidsplan</h5>
+				<div class="tidsplan">
+				<span>10:00 - </span><p>Markedet åbner</p>
+				<span>12:30 -  </span><p>Julemanden kommer</p>
+				<span>13:30 -  </span><p>Hestevogn med ryttere drager afsted</p>
+				</div>
+				
 				</div>
 		</div>
 
@@ -127,7 +132,7 @@
 				</ul>
 				</div>
 				<div class="event-image">
-					<img id="events_billede" src="img/event_billeder/banko.jpg" alt="Event picture">
+					<img src="img/event_billeder/banko.jpg" alt="Event picture">
 						<div class="img-overlay">
 							<p>Starter om</p>
 							<div>
@@ -156,7 +161,13 @@
 
 				<p>HUSK derfor de gamle briller, når du skal stemme! Skulle du gå hen at glemme brillerne – eller har du brevstemt, så er er der alligevel mulighed for at komme af med dem, så du skal blot ringe til 70 2635 70 og aftale et tidspunkt for afhentning. PÅ FORHÅND TAK.</p>
 
-				<button>luk event</button>
+				<h5>Tidsplan</h5>
+				<div class="tidsplan">
+				<span>18:00 -  </span><p>Kaffe og kage </p>
+				<span>18:30 -  </span><p>Bankospillet begynder</p>
+				<span>20:30 - </span><p>Afslutning</p>
+				</div>
+
 				</div>
 		</div>
 
@@ -178,7 +189,7 @@
 				</ul>
 				</div>
 				<div class="event-image">
-					<img id="events_billede" src="img/event_billeder/briller_2.jpg" alt="Event picture">
+					<img src="img/event_billeder/briller_2.jpg" alt="Event picture">
 						<div class="img-overlay">
 							<p>Starter om</p>
 							<div>
@@ -201,10 +212,6 @@
 			<p>Efter indsamling bliver brillerne sendty til opmåling hos en produktionsskole på Falster, hvor de opmåles, påsættes styrke, kontrolleres og pakkes i plastpose. Skolens elever sorterer briller, renser og måler dem op. De markeres med styrke og pakkes i kasser med 50 briller af samme styrke. Er brillerne kassable, tages glas ud, ligesom stel sorteres i metaller og plastik, hvorefter det hele sendes til genbrug. Når de defekte briller er sorteret fra, ender man op med ca. 30.000 par briller årligt, der får et nyt liv ude i verden.</p>
 
 			<p>På modtagerstedet sørger professionelle øjenlæger eller trænede frivillige Lions/Leos for at screene de synshæmmede, så brillerne kommer til de rette brugere. Kampen mod blindhed har altid været et kerneområde i Lions, f.eks. var Lions med i udviklingen af den hvide blindestok, uddannelse af førerhunde, etablering af øjenbanker og -hospitaler i 3. verden lande m.m. Derfor er det også naturligt at syn og brilleindsamling er i fokus her i Lions 100 års jubilæumsår.</p>
-
-
-
-				<button>luk event</button>
 				</div>
 		</div>
 </div>
