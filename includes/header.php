@@ -98,7 +98,7 @@
 </div>
 	<!-- MENU SLUT -->
 
-<img id=header_img src="img/header_billeder/header_img_forside.jpg" alt="">
+<img id=header_img src="img/header_billeder/header_img_forside.jpg" alt="Forside billede">
 
 
 </header>
