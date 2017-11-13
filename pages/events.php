@@ -69,7 +69,84 @@
 				</div>
 			</div>
 		</div>
+<!-- Hent fra databasen -->
+<?php
+$query = $handler->query('SELECT event.id, event_date, title, content, img FROM EVENT INNER JOIN event_content on event.id = event_content.event_id GROUP BY event.id');
+if($query->rowCount()){
+	while ($r = $query->fetch(PDO::FETCH_OBJ)) {
+		?>
+			<button class="accordion">
+				<div class="flex">
+				<div class="event-desc">
+					<h1><?php echo $r->title; ?></h1>
 
+					<h3><?php echo $r->event_date; ?></h3>
+					<p>
+						<?php echo $r->content; ?>
+					</p>
+				<ul class="info_icon">
+					<i class="fa fa-wheelchair"></i>
+					<i class="fa fa-coffee"></i>
+					<i class="fa fa-eur"></i>
+					<i class="fa fa-blind"></i>
+				</ul>
+				</div>
+				<div class="event-image">
+					<img src="img/<?php echo $r->img; ?>" alt="Event picture">
+						<div class="img-overlay">
+							<p>Starter om</p>
+							<div>
+								<h3>14</h3>
+								<h4>Dage</h4>
+							</div>
+							<div>
+								<h3>8</h3>
+								<h4>Timer</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</button>
+
+
+			<div class="accordion-content">
+
+				<div class="event_desc_wrapper">
+				<h5>Husk gratis entre</h5>
+
+				<p>
+					Til Julemarkedet plejer vi at få besøg af 3.000 - 4.000 gæster, og for mange af vores gæster er det en tradition at besøge Julemarkedet og gøre et par juleindkøb. Mange har en dejlig familie oplevelse med børnebørn, med venner, naboer eller måske bare en lejlighed til at komme ud og få lidt frisk luft.
+				</p>
+			
+				<h5>Åbent lørdag og søndag</h5>
+
+				<p>
+					Julemarkedet er åbent lørdag og søndag fra 10.00 - 16.00, så man har god tid til at nyde dagen på Ulstrup Slot - gøre en god handel, få noget lækkert til ganen og samtidig komme i julestemning i de mange hyggelige boder, der er opstillet i kælderen under hovedfløjen og i en af sidefløjene - det hele samlet omkring slotsgården.
+				</p>
+
+				<h5>Tidsplan</h5>
+				<div class="tidsplan">
+				<span>10:00 - </span><p>Markedet åbner</p>
+				<span>12:30 -  </span><p>Julemanden kommer</p>
+				<span>13:30 -  </span><p>Hestevogn med ryttere drager afsted</p>
+				</div>
+				
+				</div>
+		</div>
+<?php
+}}
+?>
+
+
+
+
+
+
+<!-- Hent fra databasen slut -->
+
+
+<!-- ////////////////////////////////////////////////////////////////////// -->
 			<button class="accordion">
 				<div class="flex">
 				<div class="event-desc">
@@ -129,7 +206,6 @@
 				</div>
 		</div>
 
-<!-- ////////////////////////////////////////////////////////////////////// -->
 
 			<button class="accordion">
 				<div class="flex">
