@@ -1,8 +1,6 @@
 <?php
-
 require 'config.php';
-
-$sql = "INSERT INTO event( event_date, public) VALUES ('yyyy-mm-dd','1')";
+$sql = "INSERT INTO lions_event( event_date, public) VALUES ('yyyy-mm-dd','1')";
 
 $query = $handler->prepare($sql);
 $query->execute();

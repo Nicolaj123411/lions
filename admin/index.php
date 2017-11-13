@@ -10,12 +10,12 @@
 	<div class="wrapper">
 	<section class="main-content flex">
 	
-	<?php
-
+<?php
 	require_once 'config.php';
 	include 'includes/functions.php';
 	include 'includes/menu.php';
-?><section id="main-area"><?php
+?>
+<section id="main-area"><?php
 		if (isset($_GET['admin_page'])) { 
 			require PAGE_ROUTE;
 		}elseif (!file_exists(PAGE_ROUTE) && isset($_GET['admin_page'])){

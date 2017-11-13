@@ -3,14 +3,9 @@ include('functions.php');
 $page = singlePage();
  ?>
 <div id="kalender_wrapper">
-
 	<h2>Kommende events</h2>
-
 	<div id="events_wrapper" class="flex">
-
 		<div id="events_list_wrapper">
-			
-
 			<div>
 					<button class="accordion">
 					<div class="flex">
@@ -22,8 +17,6 @@ $page = singlePage();
 							</p>
 						</div>
 					</div>
-					
-					
 				</button>
 				<div class="accordion-content">
 					<div class="event_desc_wrapper">

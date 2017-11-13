@@ -7,7 +7,7 @@ if (isset($_GET['table'])) {
 	$query->execute();
 }
 
-$sql = "DELETE FROM event WHERE id = $id";
+$sql = "DELETE FROM lions_event WHERE id = $id";
 $query = $handler->prepare($sql);
 $query->execute();
 

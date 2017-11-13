@@ -12,7 +12,7 @@ $query = $handler->prepare($sql);
 $query->execute();
 
 
-$sql = "UPDATE event SET event_date='$dato' WHERE id=$event";
+$sql = "UPDATE lions_event SET event_date='$dato' WHERE id=$event";
 $query = $handler->prepare($sql);
 if($query->execute()){
 	header('Location: ' . $_SERVER['HTTP_REFERER']);

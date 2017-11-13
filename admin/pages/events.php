@@ -1,27 +1,27 @@
-			<div id="table">
-				<div class="flex table-header">
-					<a href="new-event.php">Opret event</a>
-					<h1>Rediger events</h1><p>Oversigt over events</p>
-				</div>
+<div id="table">
+	<div class="flex table-header">
+		<a href="new-event.php">Opret event</a>
+		<h1>Rediger events</h1><p>Oversigt over events</p>
+	</div>
 
-				<div class="table-row">
-					<ul class="flex">
-						<li style="flex: 1;"><h1>dato</h1></li>
-						<li><h1>Overskrift</h1></li>
-						<li style="flex: 4;">
-							<h1>Beskrivelse</h1>
-						</li>
-						<li>
-							<h1>Billede</h1>
-						</li>
-						<li>
-							<h1>Muligheder</h1>
-						</li>
-					</ul>	
-				</div>
+	<div class="table-row">
+		<ul class="flex">
+			<li style="flex: 1;"><h1>dato</h1></li>
+			<li><h1>Overskrift</h1></li>
+			<li style="flex: 4;">
+				<h1>Beskrivelse</h1>
+			</li>
+			<li>
+				<h1>Billede</h1>
+			</li>
+			<li>
+				<h1>Muligheder</h1>
+			</li>
+		</ul>	
+	</div>
 <?php
 
-$query = $handler->query('SELECT event.id, event_date, title, content, img FROM EVENT INNER JOIN event_content on event.id = event_content.event_id GROUP BY event.id');
+$query = $handler->query('SELECT lions_event.id, event_date, title, content, img FROM lions_event INNER JOIN event_content on lions_event.id = event_content.event_id GROUP BY lions_event.id');
 if($query->rowCount()){
 	while ($r = $query->fetch(PDO::FETCH_OBJ)) {
 		?>
@@ -44,5 +44,5 @@ if($query->rowCount()){
 }
 
 ?>
-			</div>
+</div>
 		

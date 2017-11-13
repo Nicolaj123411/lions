@@ -1,12 +1,4 @@
-			<?php
-				if(isset($_GET['success'])){
-					if ($_GET['success'] == "true"){
-						echo "<div class='success-message'><h1>Ændrigen er fortaget!</h1><a href='../index.php?page=events'>Tryk her for at se ændringen!</a></div>";
-					}elseif ($_GET['success'] == "false"){
-						echo "<h1>Ændringen mislykkedes</h1>";
-					}
-				}
-			?>
+
 
 			<div id="table">
 				<div class="flex table-header">
@@ -34,7 +26,7 @@
 		$event_id = $_GET['event_id'];
 	}
 
-	$query = $handler->query("SELECT event_content.id AS event_id, event.id, event_date, title, content, img FROM EVENT INNER JOIN event_content on event.id = event_content.event_id WHERE event.id = '$event_id'");
+	$query = $handler->query("SELECT event_content.id AS event_id, lions_event.id, event_date, title, content, img FROM lions_event INNER JOIN event_content on lions_event.id = event_content.event_id WHERE lions_event.id = '$event_id'");
 if($query->rowCount()){
 	while ($r = $query->fetch(PDO::FETCH_OBJ)) {
 		?>
@@ -51,7 +43,6 @@ if($query->rowCount()){
 					</li>
 					<li>
 						<a class="red-bg" href="?admin_page=delete-event&table=event_content&event_id= <?php echo $r->event_id; ?>">SLET</a>
-						<a class="green-bg" href="#">OPDATER</a>
 						<input type="submit" value="Opdater info">
 						<a class="green-bg" href="?admin_page=edit-image&page=event_content&id=<?php echo $r->event_id; ?>">SKIFT BILLEDE</a>
 					</li>

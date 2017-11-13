@@ -13,7 +13,7 @@ if(isset($_GET['admin_page'])){
 }else{
 	$admin_page = '';
 }
-define('HOME', 'pages/forside.php');
+define('HOME', 'pages/events.php');
 define('PAGE_ROUTE', 'pages/' . $admin_page . '.php');
 define('PAGE_404', 'pages/404.php');
 

@@ -19,6 +19,13 @@
 		margin-top: 10px;
 		display: block;
 	}
+		input[type="submit"]{
+		color: #FFF !important;
+		padding: 10px;
+		background-color: #27ae60 !important;
+		width: 100%;
+
+	}
 .green-bg{
 	background-color:#27ae60;
 }
@@ -114,6 +121,7 @@
 	    padding: 10px;
 	    font-size: 20px;
 	}
+
 	.table-header a{
 		color: #FFF;
 		padding-left: 30px;

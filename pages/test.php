@@ -1,1 +1,0 @@
-<div id="value">100</div>
