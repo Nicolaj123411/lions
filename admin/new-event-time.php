@@ -6,7 +6,7 @@ $sql = "INSERT INTO event_time(event_id, event_times, description) VALUES ($id,'
 
 $query = $handler->prepare($sql);
 if($query->execute()){
-	echo "der er opdateret i databasen!";
+	header('Location: ' . $_SERVER['HTTP_REFERER']);
 }else{
 	echo "Det virkede ikke!";
 }

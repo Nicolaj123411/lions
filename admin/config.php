@@ -2,6 +2,7 @@
 
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
+
 // Configs
 define("HOST", "127.0.0.1");
 define("USER", "root");

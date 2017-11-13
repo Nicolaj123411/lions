@@ -41,8 +41,9 @@ if($query->rowCount()){
 			<div class="table-row">
 				<form id="<?php echo $r->event_id; ?>" class="row-edit" action="edit-event-detail.php" method="get">
 					<input  type="hidden" name="id" value="<?php echo $r->event_id; ?>">
+					<input  type="hidden" name="event" value="<?php echo $_GET['event_id']; ?>">
 				<ul class="flex">
-					<li><input value="YYYY-MM-DD" name="date" id="<?php echo $r->event_id; ?>" type="date" value="<?php echo $r->date; ?>"></li>
+					<li><input placeholder="YYYY-MM-DD" name="dato" id="<?php echo $r->event_id; ?>" type="text" value="<?php echo $r->event_date; ?>"></li>
 					<li><input name="headline" type="text" value="<?php echo $r->title; ?>"></li>
 					<li style="flex: 4;"><textarea id="<?php echo $r->event_id; ?>" name="desc" form="<?php echo $r->event_id; ?>"><?php echo $r->content; ?></textarea></li>
 					<li>
